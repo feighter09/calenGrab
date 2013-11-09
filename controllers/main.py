@@ -64,7 +64,7 @@ def handle_selection():
         x2 = data['endX'] + j*col_width
         y1 = data['startY'] + i*row_height
         y2 = data['endY'] + i*row_height
-        square = img.crop(x1,y1,x2,y2)
+        square = img.crop((x1,y1,x2,y2))
         square.save('square.png', 'png')
         return single_select(filename, year, month)
             

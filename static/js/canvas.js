@@ -54,17 +54,14 @@
     endY = parseInt(e.clientY - offsetY);
     var diffX = Math.abs(startX - endX);
     var diffY = Math.abs(startY - endY);
-    var cols = parseInt(diffX / 1080)
-    var rows = parseInt(diffY / 1000)
-    if (cols > 1)
+    console.log(diffX);
+    if (diffX > 300){
       cols = prompt("how many columns did you span?");
-    else 
-      cols = 1
-
-    if (rows > 1)
       rows = prompt("how many rows did you span?");
-    else
+    } else {
+      cols = 1
       rows = 1
+    }
 
     if(diffX < 5 || diffY < 5){
       ctx.clearRect(0, 0, canvas.width, canvas.height);
