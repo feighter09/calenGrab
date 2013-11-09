@@ -52,7 +52,7 @@ canvas {
    margin: 0 auto;
 }
 
-#prompt {
+#prompts {
    color: black;
    display: absolute;
    top: 100px;

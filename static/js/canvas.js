@@ -1,5 +1,5 @@
 (function() {
-  $("#prompt").hide();
+  $("#prompts").hide();
 
   var canvas = document.getElementById("selectionDrawer");
   if (!canvas)
@@ -14,7 +14,7 @@
 
   var isDrawing = false;
   var startX, startY, endX, endY;
-  var appends = 0;
+  appends = 0;
   
   this.resizeCanvas = function() {
     var img = document.getElementById("calendarImg");
@@ -54,8 +54,17 @@
     endY = parseInt(e.clientY - offsetY);
     var diffX = Math.abs(startX - endX);
     var diffY = Math.abs(startY - endY);
-    var cols = diffX / 1080
-    var rows = diffY / 1000
+    var cols = parseInt(diffX / 1080)
+    var rows = parseInt(diffY / 1000)
+    if (cols > 1)
+      cols = prompt("how many columns did you span?");
+    else 
+      cols = 1
+
+    if (rows > 1)
+      rows = prompt("how many rows did you span?");
+    else
+      rows = 1
 
     if(diffX < 5 || diffY < 5){
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -96,15 +105,16 @@
         alert("failed");
       },
       success: function(response) {
-        console.log(response.results);
-        // response = JSON.parse(response);
-        console.log(response.results[0].end)
+        $("#prompts").show();
 
-        for (var res in response.results){
-          $("#summary").val(response.results[res].summary);
-          $("#start").val(response.results[res].start);
-          $("#end").val(response.results[res].end);
-          $("#prompt").show();
+        for (var i = 0; i < response.results.length; i++){
+          var newDiv = $( '<div id="prompt' + appends + '"/>' );
+          newDiv.append('Event: <input id="summary' + appends + '" type="text" value=' + response.results[i].summary + '><br/>');
+          newDiv.append('Start: <input id="start' + appends + '" type="text" value=' + response.results[i].start + '><br/>');
+          newDiv.append('End: <input id="end' + appends + '" type="text" value=' + response.results[i].end + '><br/>');
+          newDiv.append('<button onclick="sendToGoogle(' + appends + ')">Add To Calendar</button>');
+          $("#prompts").append(newDiv);
+          appends += 1;
         }
 
         ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -142,11 +152,11 @@
   this.init();
 })();
 
-function sendToGoogle(){
+function sendToGoogle(ind){
   
-  var summary = $("#summary").val();
-  var start = $("#start").val();
-  var end = $("#end").val();
+  var summary = $("#summary" + ind).val();
+  var start = $("#start" + ind).val();
+  var end = $("#end" + ind).val();
 
   var data = {
     "summary": summary,
@@ -165,9 +175,10 @@ function sendToGoogle(){
   request.execute(function(resp) {
     if (!resp.error){
       alert("success!");
-      $("#summary").val("");
-      $("#start").val("");
-      $("#end").val("");
+      $("#summary" + ind).val("");
+      $("#start" + ind).val("");
+      $("#end" + ind).val("");
+      $("#prompt" + ind).hide();
     } else {
       alert("something went wrong, please try again");
     }
