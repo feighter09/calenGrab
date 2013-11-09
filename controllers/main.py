@@ -33,12 +33,13 @@ def image_upload():
 
 @main.route('/selection', methods=['POST'])
 def handle_selection():
+  print request.__dict__
   ## todo: 
   # open the file from url
   # crop
   # send to OCR
   # return response string(s) w/ JSON?
-  pass
+  return "success"
 
 @main.route('/tmp/pictures/<photoFile>', methods=['GET'])
 def picture_route(photoFile):
