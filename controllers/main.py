@@ -1,5 +1,5 @@
 import os, time
-from flask import Flask, request, redirect, url_for, Blueprint, render_template, send_file
+from flask import *
 from werkzeug import secure_filename
 from PIL import Image
 import subprocess
@@ -36,25 +36,26 @@ def image_upload():
 
 @main.route('/selection', methods=['POST'])
 def handle_selection():
-  print request.__dict__
-
-  filename = request.files['pic'].filename
+  data = json.loads(request.data)
+  filename = data['pic']
   img = Image.open(filename)
 
-  area = img.crop(box)
+  area = img.crop((data['startX'], data['startY'], data['endX'], data['endY']))
   area.save('square.png', 'png')
 
   convert = subprocess.Popen("convert -colorspace Gray -sharpen 1 -brightness-contrast 3X30 square.png square.png", shell = True)
   convert.communicate()
   ocr = subprocess.Popen("tesseract square.png output -l eng -psm 6", shell = True)
   ocr.communicate()
+  response = open('output.txt').read()
+  subprocess.Popen("rm square.png output.txt", shell = True)
 
   # for spellchecking:
   #d = enchant.Dict("en_US")
   #d.check('str')
   #d.suggest('str')
 
-  return open('output.txt').read()
+  return response
 
 @main.route('/tmp/pictures/<photoFile>', methods=['GET'])
 def picture_route(photoFile):

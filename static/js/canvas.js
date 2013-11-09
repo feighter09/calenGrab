@@ -1,7 +1,11 @@
 (function() {
   
   var canvas = document.getElementById("selectionDrawer");
+  if (!canvas)
+    return;
   var ctx = canvas.getContext("2d");
+ 
+  var imgOrgHeight, imgOrgWidth;
 
   var canvasOffset = $("canvas").offset();
   var offsetX = canvasOffset.left;
@@ -12,8 +16,13 @@
   
   this.resizeCanvas = function() {
     var img = document.getElementById("calendarImg");
-    canvas.width = String(img.clientWidth);
+    imgOrgHeight = img.clientHeight;
+    imgOrgWidth = img.clientWidth;
+    if (imgOrgWidth > 960) {
+      $("#calendarImg").width(960);
+    };
     canvas.height = String(img.clientHeight);
+    canvas.width = String(img.clientWidth);
     canvas.style.left = String((960 - canvas.width) / 2) + "px";
   }
 
@@ -37,6 +46,7 @@
 
   this.handleMouseUp = function (e) {
     isDrawing = false;
+    canvas.style.cursor = "default";
     
     endX = parseInt(e.clientX - offsetX);
     endY = parseInt(e.clientY - offsetY);
@@ -45,25 +55,43 @@
 
     if(diffX < 5 || diffY < 5){
       ctx.clearRect(0, 0, canvas.width, canvas.height);
+      return;
     };
-    canvas.style.cursor = "default";
 
-    var pic = $("calendarImg").attr("src");
+    var img = document.getElementById("calendarImg");
+    // if (imgOrgWidth != img.clientWidth) {
+      var x0, x1, y0, y1;
+      var perc = startX*1.0 / img.clientWidth;
+      startX = Math.round(perc * imgOrgWidth);
+      perc = endX*1.0 / img.clientWidth;
+      endX = Math.round(perc * imgOrgWidth);
+
+      perc = startY*1.0 / img.clientHeight;
+      startY = Math.round(perc * imgOrgHeight);
+      perc = endY*1.0 / img.clientHeight;
+      endY = Math.round(perc * imgOrgHeight);
+    // };
+
+    var pic = $("#calendarImg").attr("src");
+    console.log(pic);
     $.ajax({
       url: "/selection",
       type: "POST",
-      data: {
-        pic: pic,
+      data: JSON.stringify({
+        "pic": pic,
         startX: startX,
         endX: endX, 
         startY: startY,
         endY: endY
-      },
+      }),
+      dataTypa: "json",
+      contentType: "application/json",
       error: function() {
         alert("failed");
       },
-      success: function() {
-        alert("it worked!");
+      success: function(res) {
+        alert(res);
+        ctx.clearRect(0, 0, canvas.width, canvas.height);
       }
     });
   }
@@ -91,8 +119,8 @@
     isDrawing = true;
     startX = parseInt(e.clientX - offsetX);
     startY = parseInt(e.clientY - offsetY);
-    endY = 0;
-    endX = 0;
+    endY = parseInt(e.clientX - offsetX);
+    endX = parseInt(e.clientY - offsetY);
   }
 
   this.init();
