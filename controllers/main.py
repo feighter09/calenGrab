@@ -41,25 +41,45 @@ def handle_selection():
   filename = data['pic']
 
   img = Image.open(filename)
-  square = img.crop((data['startX'], data['startY'], data['endX'], data['endY']))
-  square.save('square.png', 'png')
-  
-  convert("square.png", "square.png")
-  cal_ocr = ocr(filename)
-  square_ocr = ocr("square.png")
-  subprocess.Popen("rm square.png", shell = True)
+  (width, height) = img.size
 
+  cal_ocr = ocr(filename)
   print "cal: " + cal_ocr
-  print "square: " + square_ocr
-  print ""
 
   year = find_year(cal_ocr)
   print "year:"
   print year
-
   month = find_month(cal_ocr)
   print "month:"
   print month
+
+  if (data['endX'] - data['startX']) > (width/2): # bulk select
+    print data
+    col_width = (data['endX'] - data['startX']) / int(data['cols'])
+    row_height = (data['endY'] - data['startY']) / int(data['rows'])
+
+    for i in range(0, int(data['rows'])):
+      for j in range(0, int(data['cols'])):
+        x1 = data['startX'] + j*col_width
+        x2 = data['endX'] + j*col_width
+        y1 = data['startY'] + i*row_height
+        y2 = data['endY'] + i*row_height
+        square = img.crop(x1,y1,x2,y2)
+        square.save('square.png', 'png')
+        return single_select(filename, year, month)
+            
+  else:
+    square = img.crop((data['startX'], data['startY'], data['endX'], data['endY']))
+    square.save('square.png', 'png')
+    return single_select(filename, year, month)
+  
+def single_select(filename, year, month):
+
+  convert("square.png", "square.png")
+  square_ocr = ocr("square.png")
+  subprocess.Popen("rm square.png", shell = True)
+
+  print "square: " + square_ocr
 
   (day, square_ocr) = find_day(square_ocr)
   print "day:"
@@ -76,6 +96,7 @@ def handle_selection():
     to_jsonify.append(event)
 
   return jsonify(results = to_jsonify)
+
 
 @main.route('/tmp/pictures/<photoFile>', methods=['GET'])
 def picture_route(photoFile):
@@ -98,10 +119,10 @@ def ocr(filename):
   proc.communicate()
   lines = [line.strip() for line in open('output.txt')]
   subprocess.Popen("rm output.txt", shell = True)
-  ocr = " " 
+  ocr = "" 
   for line in lines:
     ocr += line + ' ' 
-  return ocr 
+  return ocr.strip() 
 
 month_mappings = {'jan': 1, 'january': 1, 'feb': 2, 'february': 2, 'mar': 3, 'march': 3, 'apr': 4, 'april': 4, 'may': 5, 'jun': 6, 'june': 6, 'jul': 7, 'july': 7, 'aug': 8, 'august': 8, 'sep': 9, 'september': 9, 'oct': 10, 'october': 10, 'nov': 11, 'november': 11, 'dec': 12, 'december': 12}
 
@@ -121,8 +142,8 @@ def find_month(ocr):
     return int(datetime.date.today().month)
 
 def find_day(ocr):
-  result = re.search("(?P<day>[0-3]?[0-9])", ocr)
-  if result:
+  result = re.search("(.?.?(?P<day>[0-3]?[0-9]))", ocr) # two free characters for OCR noise
+  if result and result.start() <= 2:
     ocr = ocr[result.end():]
     return (int(result.group('day')), ocr)
   else:
@@ -132,6 +153,7 @@ def find_times(ocr, year, month, day):
   start_times = []
   end_times = []
   titles = []
+  ocr = " " + ocr
   while True:
     match = re.search("(from)?[ ](?P<hour_1>[0-2]?[0-9])([:=](?P<min_1>[0-5][0-9]))?(?P<am_pm_1>[a|A|p|P][m|M])?[ ]?(-|to|until|through)[ ]?(?P<hour_2>[0-2]?[0-9])([:=](?P<min_2>[0-5][0-9]))?(?P<am_pm_2>[a|A|p|P][m|M])?[ ]", ocr)
     if not match:
@@ -151,7 +173,7 @@ def find_times(ocr, year, month, day):
     start_times.append(datetime.datetime(year, month, day, hour_one, minute_one))
     end_times.append(datetime.datetime(year, month, day, hour_two, minute_two))
     titles.append(ocr[:match.start()].strip())
-    ocr = ocr[match.end():]
+    ocr = ocr[match.end():] + " "
 
   # If no events found, must use start times
   if not titles:
