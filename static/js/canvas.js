@@ -1,5 +1,6 @@
 (function() {
-  
+  $("#prompt").hide();
+
   var canvas = document.getElementById("selectionDrawer");
   if (!canvas)
     return;
@@ -13,6 +14,7 @@
 
   var isDrawing = false;
   var startX, startY, endX, endY;
+  var appends = 0;
   
   this.resizeCanvas = function() {
     var img = document.getElementById("calendarImg");
@@ -52,6 +54,8 @@
     endY = parseInt(e.clientY - offsetY);
     var diffX = Math.abs(startX - endX);
     var diffY = Math.abs(startY - endY);
+    var cols = diffX / 1080
+    var rows = diffY / 1000
 
     if(diffX < 5 || diffY < 5){
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -59,7 +63,7 @@
     };
 
     var img = document.getElementById("calendarImg");
-    // if (imgOrgWidth != img.clientWidth) {
+    if (imgOrgWidth != img.clientWidth) {
       var x0, x1, y0, y1;
       var perc = startX*1.0 / img.clientWidth;
       startX = Math.round(perc * imgOrgWidth);
@@ -70,7 +74,7 @@
       startY = Math.round(perc * imgOrgHeight);
       perc = endY*1.0 / img.clientHeight;
       endY = Math.round(perc * imgOrgHeight);
-    // };
+    };
 
     var pic = $("#calendarImg").attr("src");
     console.log(pic);
@@ -82,15 +86,27 @@
         startX: startX,
         endX: endX, 
         startY: startY,
-        endY: endY
+        endY: endY,
+        rows: rows,
+        cols: cols
       }),
       dataTypa: "json",
       contentType: "application/json",
       error: function() {
         alert("failed");
       },
-      success: function(res) {
-        alert(res);
+      success: function(response) {
+        console.log(response.results);
+        // response = JSON.parse(response);
+        console.log(response.results[0].end)
+
+        for (var res in response.results){
+          $("#summary").val(response.results[res].summary);
+          $("#start").val(response.results[res].start);
+          $("#end").val(response.results[res].end);
+          $("#prompt").show();
+        }
+
         ctx.clearRect(0, 0, canvas.width, canvas.height);
       }
     });
@@ -125,3 +141,35 @@
 
   this.init();
 })();
+
+function sendToGoogle(){
+  
+  var summary = $("#summary").val();
+  var start = $("#start").val();
+  var end = $("#end").val();
+
+  var data = {
+    "summary": summary,
+    "start": {
+      "dateTime": start + "-05:00"
+    },
+    "end": {
+      "dateTime": end + "-05:00"
+    }
+  };
+
+  var request = gapi.client.calendar.events.insert({
+    'calendarId': 'primary',
+    'resource': data
+  });
+  request.execute(function(resp) {
+    if (!resp.error){
+      alert("success!");
+      $("#summary").val("");
+      $("#start").val("");
+      $("#end").val("");
+    } else {
+      alert("something went wrong, please try again");
+    }
+  });
+}
