@@ -3,4 +3,4 @@
 *.pyc
 .DS_Store
 local_settings.py
-static/tmp/*
+static/tmp/pictures/*

@@ -1,6 +1,9 @@
 import os, time
 from flask import Flask, request, redirect, url_for, Blueprint, render_template, send_file
 from werkzeug import secure_filename
+from PIL import Image
+import subprocess
+import enchant
 
 UPLOAD_FOLDER = 'static/tmp/pictures/'
 ALLOWED_EXTENSIONS = set(['png', 'jpg', 'jpeg', 'gif'])
@@ -34,12 +37,24 @@ def image_upload():
 @main.route('/selection', methods=['POST'])
 def handle_selection():
   print request.__dict__
-  ## todo: 
-  # open the file from url
-  # crop
-  # send to OCR
-  # return response string(s) w/ JSON?
-  return "success"
+
+  filename = request.files['pic'].filename
+  img = Image.open(filename)
+
+  area = img.crop(box)
+  area.save('square.png', 'png')
+
+  convert = subprocess.Popen("convert -colorspace Gray -sharpen 1 -brightness-contrast 3X30 square.png square.png", shell = True)
+  convert.communicate()
+  ocr = subprocess.Popen("tesseract square.png output -l eng -psm 6", shell = True)
+  ocr.communicate()
+
+  # for spellchecking:
+  #d = enchant.Dict("en_US")
+  #d.check('str')
+  #d.suggest('str')
+
+  return open('output.txt').read()
 
 @main.route('/tmp/pictures/<photoFile>', methods=['GET'])
 def picture_route(photoFile):
@@ -48,3 +63,4 @@ def picture_route(photoFile):
 def getFileExtension(file):
   filename = secure_filename(file.filename)
   return filename.rsplit('.', 1)[1];
+
