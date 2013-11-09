@@ -89,8 +89,10 @@
   this.handleMouseDown = function (e) {
     canvas.style.cursor = "crosshair";    
     isDrawing = true;
-    endX = startX = parseInt(e.clientX - offsetX);
-    endY = startY = parseInt(e.clientY - offsetY);
+    startX = parseInt(e.clientX - offsetX);
+    startY = parseInt(e.clientY - offsetY);
+    endY = 0;
+    endX = 0;
   }
 
   this.init();

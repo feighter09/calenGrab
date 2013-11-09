@@ -1,0 +1,4 @@
+flask
+werkzeug
+PIL
+pyenchant
