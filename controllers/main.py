@@ -72,7 +72,7 @@ def handle_selection():
     print start_times[i]
     print end_times[i]
     print titles[i]
-    event = {"start": start_times[i], "end": end_times[i], "summary": titles[i]}
+    event = {"start": start_times[i].isoformat(), "end": end_times[i].isoformat(), "summary": titles[i]}
     to_jsonify.append(event)
 
   return jsonify(results = to_jsonify)

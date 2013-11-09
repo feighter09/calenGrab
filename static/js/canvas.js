@@ -14,6 +14,7 @@
 
   var isDrawing = false;
   var startX, startY, endX, endY;
+  var appends = 0;
   
   this.resizeCanvas = function() {
     var img = document.getElementById("calendarImg");
@@ -53,6 +54,8 @@
     endY = parseInt(e.clientY - offsetY);
     var diffX = Math.abs(startX - endX);
     var diffY = Math.abs(startY - endY);
+    var cols = diffX / 1080
+    var rows = diffY / 1000
 
     if(diffX < 5 || diffY < 5){
       ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -83,7 +86,9 @@
         startX: startX,
         endX: endX, 
         startY: startY,
-        endY: endY
+        endY: endY,
+        rows: rows,
+        cols: cols
       }),
       dataTypa: "json",
       contentType: "application/json",
@@ -91,12 +96,14 @@
         alert("failed");
       },
       success: function(response) {
-        response = JSON.parse(response);
-        console.log(response);
-        for each (var res in response){
-          $("#summary").val(res.summary);
-          $("#start").val(res.start);
-          $("#end").val(res.end);
+        console.log(response.results);
+        // response = JSON.parse(response);
+        console.log(response.results[0].end)
+
+        for (var res in response.results){
+          $("#summary").val(response.results[res].summary);
+          $("#start").val(response.results[res].start);
+          $("#end").val(response.results[res].end);
           $("#prompt").show();
         }
 
@@ -144,10 +151,10 @@ function sendToGoogle(){
   var data = {
     "summary": summary,
     "start": {
-      "dateTime": start
+      "dateTime": start + "-05:00"
     },
     "end": {
-      "dateTime": end
+      "dateTime": end + "-05:00"
     }
   };
 
@@ -156,6 +163,13 @@ function sendToGoogle(){
     'resource': data
   });
   request.execute(function(resp) {
-    console.log(resp);
+    if (!resp.error){
+      alert("success!");
+      $("#summary").val("");
+      $("#start").val("");
+      $("#end").val("");
+    } else {
+      alert("something went wrong, please try again");
+    }
   });
 }
