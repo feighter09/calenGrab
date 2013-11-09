@@ -43,21 +43,23 @@ def handle_selection():
   img = Image.open(filename)
   (width, height) = img.size
 
+  cal_ocr = ocr(filename)
   print "cal: " + cal_ocr
+
   year = find_year(cal_ocr)
   print "year:"
   print year
-
   month = find_month(cal_ocr)
   print "month:"
   print month
 
   if (data['endX'] - data['startX']) > (width/2): # bulk select
-    col_width = (data['endX'] - data['startX']) / data['cols']
-    row_height = (data['endY'] - data['startY']) / data['rows']
+    print data
+    col_width = (data['endX'] - data['startX']) / int(data['cols'])
+    row_height = (data['endY'] - data['startY']) / int(data['rows'])
 
-    for i in range(0, data['rows']):
-      for j in range(0, data['cols']):
+    for i in range(0, int(data['rows'])):
+      for j in range(0, int(data['cols'])):
         x1 = data['startX'] + j*col_width
         x2 = data['endX'] + j*col_width
         y1 = data['startY'] + i*row_height
@@ -74,7 +76,6 @@ def handle_selection():
 def single_select(filename, year, month):
 
   convert("square.png", "square.png")
-  cal_ocr = ocr(filename)
   square_ocr = ocr("square.png")
   subprocess.Popen("rm square.png", shell = True)
 
