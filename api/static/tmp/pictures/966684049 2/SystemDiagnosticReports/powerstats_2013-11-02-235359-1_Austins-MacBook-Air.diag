@@ -1,0 +1,1779 @@
+Date/Time:       2013-11-01 00:00:00 -0400
+OS Version:      10.9 (Build 13A603)
+Architecture:    x86_64
+Report Version:  18
+
+Event:           powerstats
+Signature:       com.apple.SystemStats.TopPowerEvent
+Start time:      2013-11-01 00:00:00 -0400
+End time:        2013-11-01 00:05:28 -0400
+Duration:        328s
+Steps:           364
+
+Hardware model:  MacBookAir6,2
+Active cpus:     4
+
+
+Powerstats for:  Google Chrome He
+Microstackshots: 130 samples
+Primary state:   106 samples state 0x18
+  Binary Images:
+  com.google.Chrome.helper	30.0.1599.101 (1599.101)	<9B3251C2-E89E-392F-8710-DAD42E925B44>	/Applications/Google Chrome.app/Contents/Versions/30.0.1599.101/Google Chrome Helper.app/Contents/MacOS/Google Chrome Helper
+  com.google.Chrome.framework	30.0.1599.101 (1599.101)	<C8E76491-4227-3AEA-A77D-0A0B352A7BC6>	/Applications/Google Chrome.app/Contents/Versions/30.0.1599.101/Google Chrome Framework.framework/Google Chrome Framework
+  com.macromedia.PepperFlashPlayer.pepper	11.8.800.66 (11.8.800.66)	<7D8186B0-50C0-CE46-0355-30CA443CA43F>	/Applications/Google Chrome.app/Contents/Versions/30.0.1599.101/Google Chrome Framework.framework/Internet Plug-Ins/PepperFlash/PepperFlashPlayer.plugin/Contents/MacOS/PepperFlashPlayer
+  libc++abi.dylib	(48)	<5367BE5A-D475-3FB4-972D-E1DC999A709A>	/usr/lib/libc++abi.dylib
+  libdispatch.dylib	(339.1.9)	<6249BAE5-044F-3A7A-9CCC-03FF7E6B405B>	/usr/lib/system/libdispatch.dylib
+  libsystem_malloc.dylib	(23.1.10)	<69F485C9-B3E7-3E36-A06C-D7DFD29D22E1>	/usr/lib/system/libsystem_malloc.dylib
+  libsystem_pthread.dylib	(53.1.4)	<8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C>	/usr/lib/system/libsystem_pthread.dylib
+  libsystem_platform.dylib	(24.1.4)	<875321B9-34EF-3FCC-880C-633FA05223F5>	/usr/lib/system/libsystem_platform.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<50F70E07-043A-3A2F-87EF-A36BA6C5C9D9>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  libsystem_kernel.dylib	(2422.1.72)	<C5641F6C-E271-380A-A656-AE4C04345602>	/usr/lib/system/libsystem_kernel.dylib
+  com.apple.AppKit	6.9 (1265)	<AE258D94-0272-394F-BBB7-9B5C165A4A78>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  com.apple.HIToolbox	2.1	<74E2DE33-E48E-3206-BD78-AFB988235A83>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+
+  88  9B3251C2-E89E-392F-8710-DAD42E925B44 + 3925
+    88  9B3251C2-E89E-392F-8710-DAD42E925B44 + 3960
+      88  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 10809
+        88  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7676448
+          88  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7679637
+            67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53454645
+              67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589946
+                67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                  67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                    67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360572
+                      67  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8361803
+                        67  AE258D94-0272-394F-BBB7-9B5C165A4A78 + 103260
+                          67  AE258D94-0272-394F-BBB7-9B5C165A4A78 + 158416
+                            67  AE258D94-0272-394F-BBB7-9B5C165A4A78 + 161193
+                              67  74E2DE33-E48E-3206-BD78-AFB988235A83 + 178573
+                                65  74E2DE33-E48E-3206-BD78-AFB988235A83 + 179122
+                                  55  74E2DE33-E48E-3206-BD78-AFB988235A83 + 179757
+                                    55  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482235
+                                      19  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482650
+                                        16  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484302
+                                          16  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 486603
+                                            16  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 548415
+                                              13  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360834
+                                                12  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593270
+                                                  11  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                                                    10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8739216
+                                                      10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8737363
+                                                        10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13644891
+                                                          10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13642753
+                                                            10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13643568
+                                                              10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13618660
+                                                                10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52047600
+                                                                  10  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6669899
+                                                                    8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6666419
+                                                                      8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6672196
+                                                                        8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6668421
+                                                                          8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6671909
+                                                                            8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6674845
+                                                                              7   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6678260
+                                                                                7   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7338484
+                                                                                  6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52971379
+                                                                                    6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 24364075
+                                                                                      6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 24363992
+                                                                                        4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31416229
+                                                                                          4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31415770
+                                                                                            4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 33556978
+                                                                                              4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32942008
+                                                                                                4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943332
+                                                                                                  4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32947773
+                                                                                                    4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943332
+                                                                                                      4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32947773
+                                                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943446
+                                                                                                          2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32947773
+                                                                                                            2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943895
+                                                                                                              2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32948874
+                                                                                                                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 33225781
+                                                                                                                  2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 33241976
+                                                                                                                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 33557045
+                                                                                                                      2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32942008
+                                                                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32942227
+                                                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943332
+                                                                                                          2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32947773
+                                                                                                            2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32943593
+                                                                                                              2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32930121
+                                                                                                                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32935900
+                                                                                                                  2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 32892066
+                                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31416085
+                                                                                          2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 27702191
+                                                                                            2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 27754544
+                                                                                              2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31547292
+                                                                                                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31545866
+                                                                                                  2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 31550019
+                                                                                                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 27698008
+                                                                                                      2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 28465152
+                                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52971382
+                                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6678293
+                                                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6674930
+                                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6670415
+                                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8647841
+                                                                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 6666368
+                                                                      2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8678352
+                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8785664
+                                                                          2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8784992
+                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13625033
+                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13618660
+                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 48128468
+                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53246203
+                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53244568
+                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7045665
+                                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7053878
+                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7024718
+                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7080537
+                                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7074156
+                                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7083443
+                                                                          1   5367BE5A-D475-3FB4-972D-E1DC999A709A + 126839
+                                                                            1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 69444
+                                                                              1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 66907
+                                                                                1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 15186
+                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592464
+                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8788352
+                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8678636
+                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8776797
+                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593081
+                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360776
+                                                    1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777848
+                                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 516302
+                                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 517226
+                                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 1433211
+                                                            1   6249BAE5-044F-3A7A-9CCC-03FF7E6B405B + 16235
+                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360930
+                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360776
+                                                  1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777848
+                                                    1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 516218
+                                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 100340
+                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360868
+                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593760
+                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8782049
+                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8781782
+                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8781722
+                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53250113
+                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53239318
+                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 53239945
+                                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 19832038
+                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 22272639
+                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 20573576
+                                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 20572207
+                                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 21046993
+                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 21048402
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484770
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                            1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18564
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484830
+                                          1   C5641F6C-E271-380A-A656-AE4C04345602 + 77606
+                                            1   <state 0x98>
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484673
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 487273
+                                            1   C5641F6C-E271-380A-A656-AE4C04345602 + 77690
+                                              1   <state 0x98>
+                                      16  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482374
+                                        13  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 330617
+                                          12  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 227909
+                                            5   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 44037
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 128203
+                                                1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 401884
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 128260
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 401872
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 128021
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 128148
+                                            3   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 42364
+                                              2   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 331908
+                                                1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70839
+                                                1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70785
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70471
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 41650
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 43998
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70368
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 43853
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 41585
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 330634
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                            1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18414
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 330590
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 18193
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 12148
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 227808
+                                      8   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482391
+                                        4   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482968
+                                          4   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 316654
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 317489
+                                              1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70885
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 317506
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 70369
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 316736
+                                        2   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6267
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482916
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482947
+                                      3   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482627
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 546031
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 546206
+                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360992
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 546002
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 19193
+                                            1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 17785
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 545826
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 188460
+                                            1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 188523
+                                      3   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482506
+                                        2   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 14246
+                                          2   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 14296
+                                            2   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 66907
+                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8668676
+                                                1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 15210
+                                                  1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 57275
+                                              1   C5641F6C-E271-380A-A656-AE4C04345602 + 79507
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 14226
+                                      2   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482738
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 18020
+                                          1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 114216
+                                            1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 68238
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 114192
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482584
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 32897
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 1465040
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482677
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 545875
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482465
+                                  5   74E2DE33-E48E-3206-BD78-AFB988235A83 + 179727
+                                    3   74E2DE33-E48E-3206-BD78-AFB988235A83 + 31944
+                                      2   74E2DE33-E48E-3206-BD78-AFB988235A83 + 1834160
+                                        2   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 19193
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 17808
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 17707
+                                      1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 1834087
+                                        1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18357
+                                    1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 31908
+                                    1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 31996
+                                      1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 19193
+                                        1   875321B9-34EF-3FCC-880C-633FA05223F5 + 13210
+                                  3   74E2DE33-E48E-3206-BD78-AFB988235A83 + 179692
+                                    2   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 157180
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 140815
+                                        1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 132824
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 97489
+                                    1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 157138
+                                      1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 74831
+                                  1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 545216
+                                  1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 31790
+                                1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 179077
+                                  1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 248847
+                                    1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                      1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18401
+                                        1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6322
+                                          1   <state 0x98>
+                                1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 179139
+                                  1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 179375
+                                    1   74E2DE33-E48E-3206-BD78-AFB988235A83 + 10274
+            21  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7651114
+              21  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589946
+                21  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                  21  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                    20  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603336
+                      20  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593270
+                        19  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                          19  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39924657
+                            19  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39924397
+                              19  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52133108
+                                19  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52132816
+                                  19  7D8186B0-50C0-CE46-0355-30CA443CA43F + 214800
+                                    19  7D8186B0-50C0-CE46-0355-30CA443CA43F + 213655
+                                      19  7D8186B0-50C0-CE46-0355-30CA443CA43F + 377521
+                                        16  7D8186B0-50C0-CE46-0355-30CA443CA43F + 6039276
+                                          7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6035640
+                                            6   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5732787
+                                              6   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5715521
+                                                4   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5706115
+                                                  3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5669964
+                                                    3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5139716
+                                                      3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5924500
+                                                        3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5900417
+                                                          3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5899662
+                                                            2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5899087
+                                                              2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4286526
+                                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5899321
+                                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6298845
+                                                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5670341
+                                                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5097014
+                                                2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5706922
+                                                  2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5130834
+                                                    2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5129724
+                                                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2134850
+                                                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2089630
+                                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2104447
+                                                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2135071
+                                                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2089196
+                                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2099258
+                                                            1   ???
+                                                              1   ???
+                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5715774
+                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5151499
+                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5130379
+                                                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5562075
+                                                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11163462
+                                          4   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6036358
+                                            3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5190561
+                                              3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5952163
+                                                3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4830968
+                                                  3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4818315
+                                                    3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 370603
+                                                      3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 13944842
+                                                        3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 40004393
+                                                          3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52019059
+                                                            3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52106296
+                                                              3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090971
+                                                                3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090778
+                                                                  3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090417
+                                                                    3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52285013
+                                                                      3   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13640912
+                                                                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13641480
+                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13622232
+                                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8745641
+                                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8602431
+                                                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8585529
+                                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8586010
+                                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592715
+                                                                                      1   C5641F6C-E271-380A-A656-AE4C04345602 + 103498
+                                                                                        1   <state 0x98>
+                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13622116
+                                                                            1   5367BE5A-D475-3FB4-972D-E1DC999A709A + 126839
+                                                                              1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 69444
+                                                                                1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 66907
+                                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8668676
+                                                                                    1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 15210
+                                                                                      1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 57544
+                                                                                        1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 56133
+                                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13641753
+                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13642155
+                                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8734712
+                                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732056
+                                                                                1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 23513
+                                                                                  1   C5641F6C-E271-380A-A656-AE4C04345602 + 96202
+                                                                                    1   <state 0x98>
+                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5197005
+                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5159953
+                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6003624
+                                                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5945516
+                                          2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6036248
+                                            2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 3001767
+                                              2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2105898
+                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2099258
+                                                  1   ???
+                                                    1   ???
+                                                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2317200
+                                                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2316170
+                                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5237066
+                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 2099093
+                                                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 1821111
+                                                    1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 19193
+                                                      1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 17554
+                                                        1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6331
+                                          2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6036297
+                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4398170
+                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4397600
+                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4398157
+                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4346125
+                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4402114
+                                                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4401822
+                                                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4399134
+                                                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5190561
+                                                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5952163
+                                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4830968
+                                                            1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 4818315
+                                                              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 370603
+                                                                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 13944842
+                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 40004393
+                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52019059
+                                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52106296
+                                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090971
+                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090778
+                                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52090417
+                                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52285013
+                                                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13640912
+                                                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13641480
+                                                                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13622232
+                                                                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8745641
+                                                                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8602431
+                                                                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8585529
+                                                                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8586010
+                                                                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592715
+                                                                                                1   C5641F6C-E271-380A-A656-AE4C04345602 + 103498
+                                                                                                  1   <state 0x98>
+                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6035670
+                                        2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6038958
+                                          2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5848586
+                                            2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 3432281
+                                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 6039219
+                                          1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 105548
+                                            1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 14912
+                                              1   C5641F6C-E271-380A-A656-AE4C04345602 + 96174
+                                                1   <state 0x98>
+                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592495
+                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8785881
+                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8785299
+                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603278
+                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8733387
+                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732271
+                          1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 23589
+                            1   C5641F6C-E271-380A-A656-AE4C04345602 + 96202
+                              1   <state 0x98>
+  42  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 27890
+    42  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 5253
+      42  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 5627
+        19  7D8186B0-50C0-CE46-0355-30CA443CA43F + 11055258
+          13  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10947752
+            13  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10929157
+              13  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10895095
+                12  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10893905
+                  12  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10935256
+                    12  7D8186B0-50C0-CE46-0355-30CA443CA43F + 10941373
+                      8   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11063465
+                        3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11067892
+                        2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11067885
+                        2   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11067872
+                        1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11067875
+                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11063583
+                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11063599
+                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11067840
+                      1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11063659
+                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 10893793
+                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 10902821
+                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11053959
+                      1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                        1   C5641F6C-E271-380A-A656-AE4C04345602 + 96258
+                          1   <state 0x98>
+          6   7D8186B0-50C0-CE46-0355-30CA443CA43F + 10947702
+            6   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11057694
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11058562
+                1   5367BE5A-D475-3FB4-972D-E1DC999A709A + 126839
+                  1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 69461
+                    1   <state 0x98>
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11058351
+                1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                  1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18401
+                    1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6322
+                      1   <state 0x98>
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11058725
+                1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 68893
+                  1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 28527
+                    1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 44527
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11058519
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11058337
+                1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                  1   C5641F6C-E271-380A-A656-AE4C04345602 + 96258
+                    1   <state 0x98>
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11059093
+                1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 23513
+                  1   C5641F6C-E271-380A-A656-AE4C04345602 + 96202
+                    1   <state 0x98>
+        12  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8748597
+          8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8762527
+            8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8763027
+              8   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39852980
+                6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39852839
+                  5   7D8186B0-50C0-CE46-0355-30CA443CA43F + 10903144
+                    5   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11054566
+                      5   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11057078
+                        5   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 14108
+                          5   C5641F6C-E271-380A-A656-AE4C04345602 + 96118
+                            5   <state 0x98>
+                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 10902931
+                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 11053927
+                      1   C5641F6C-E271-380A-A656-AE4C04345602 + 96230
+                        1   <state 0x98>
+                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39852872
+                  2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 17255950
+                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 17255556
+          4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8764664
+            4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8764529
+              4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589946
+                4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                  4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8357902
+                      2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8821754
+                        2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8357612
+                          2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13613053
+                            2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13612893
+                              2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13625475
+                                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13626295
+                                  2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13639629
+                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13644432
+                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732766
+                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8739360
+                                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589670
+                                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8585529
+                                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8586010
+                                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592715
+                                                  1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360670
+                                                    1   50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 402118
+                                                      1   C5641F6C-E271-380A-A656-AE4C04345602 + 77690
+                                                        1   <state 0x98>
+                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13644279
+                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13629697
+                                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8647077
+                                          1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 69735
+                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8358171
+                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593270
+                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13623510
+                            1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13620122
+                              1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13615083
+                                1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13611299
+                                  1   C5641F6C-E271-380A-A656-AE4C04345602 + 97198
+                                    1   <state 0x98>
+                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603150
+                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593760
+                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 18314272
+        11  7D8186B0-50C0-CE46-0355-30CA443CA43F + 103473
+          11  7D8186B0-50C0-CE46-0355-30CA443CA43F + 103248
+            11  7D8186B0-50C0-CE46-0355-30CA443CA43F + 103149
+              7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5835315
+                7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 376561
+                  7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 212621
+                    7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 109676
+                      7   7D8186B0-50C0-CE46-0355-30CA443CA43F + 13880275
+                        6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52132427
+                          6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8602431
+                            6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8585529
+                              6   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8586010
+                                4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592715
+                                  4   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603428
+                                    2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732722
+                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732901
+                                      1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 68678
+                                        1   69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 14590
+                                    1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8732878
+                                      1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8737156
+                                        1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 14108
+                                          1   C5641F6C-E271-380A-A656-AE4C04345602 + 96118
+                                            1   <state 0x98>
+                                2   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603408
+                        1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 52132081
+                          1   C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 39904588
+                            1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 22462
+              3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5835206
+                3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 106502
+                  3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 102991
+                    3   7D8186B0-50C0-CE46-0355-30CA443CA43F + 103759
+                      3   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 23589
+                        2   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 15669
+                          2   875321B9-34EF-3FCC-880C-633FA05223F5 + 14058
+                        1   C5641F6C-E271-380A-A656-AE4C04345602 + 96202
+                          1   <state 0x98>
+              1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 5835368
+                1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 106502
+                  1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 102991
+                    1   7D8186B0-50C0-CE46-0355-30CA443CA43F + 103759
+                      1   8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 23589
+                        1   C5641F6C-E271-380A-A656-AE4C04345602 + 96202
+                          1   <state 0x98>
+
+
+Powerstats for:  Google Chrome
+Microstackshots: 89 samples
+Primary state:   45 samples state 0x98
+  Binary Images:
+  com.google.Chrome	30.0.1599.101 (1599.101)	<9701C8FF-1C66-3E98-BFA1-3FF0833201FC>	/Applications/Google Chrome.app/Contents/MacOS/Google Chrome
+  com.google.Chrome.framework	30.0.1599.101 (1599.101)	<C8E76491-4227-3AEA-A77D-0A0B352A7BC6>	/Applications/Google Chrome.app/Contents/Versions/30.0.1599.101/Google Chrome Framework.framework/Google Chrome Framework
+  com.apple.audio.units.Components	1.9 (1.9)	<303B5E17-B3F4-3E0A-935B-E83BA0866941>	/System/Library/Components/CoreAudio.component/Contents/MacOS/CoreAudio
+  libc++abi.dylib	(48)	<5367BE5A-D475-3FB4-972D-E1DC999A709A>	/usr/lib/libc++abi.dylib
+  libobjc.A.dylib	(551.1)	<31CBE178-E972-30D1-ADC6-4B8345CAE326>	/usr/lib/libobjc.A.dylib
+  libsystem_malloc.dylib	(23.1.10)	<69F485C9-B3E7-3E36-A06C-D7DFD29D22E1>	/usr/lib/system/libsystem_malloc.dylib
+  libsystem_pthread.dylib	(53.1.4)	<8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C>	/usr/lib/system/libsystem_pthread.dylib
+  libsystem_platform.dylib	(24.1.4)	<875321B9-34EF-3FCC-880C-633FA05223F5>	/usr/lib/system/libsystem_platform.dylib
+  libstdc++.6.dylib	(60)	<354F284B-2343-3810-9CA2-E28038824F6E>	/usr/lib/libstdc++.6.dylib
+  libsystem_c.dylib	(997.1.1)	<D06FD754-8CE3-3EB7-BE05-2EF939BBE05F>	/usr/lib/system/libsystem_c.dylib
+  com.apple.audio.CoreAudio	4.2.0 (4.2.0)	<0F1C111F-1E64-33BB-A69F-14643B3037D5>	/System/Library/Frameworks/CoreAudio.framework/Versions/A/CoreAudio
+  com.apple.CoreFoundation	6.9 (855.11)	<50F70E07-043A-3A2F-87EF-A36BA6C5C9D9>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  com.apple.audio.toolbox.AudioToolbox	1.9 (1.9)	<E5FFD35D-18CF-333C-BECE-39F8E47BE707>	/System/Library/Frameworks/AudioToolbox.framework/Versions/A/AudioToolbox
+  libsystem_kernel.dylib	(2422.1.72)	<C5641F6C-E271-380A-A656-AE4C04345602>	/usr/lib/system/libsystem_kernel.dylib
+  com.apple.AppKit	6.9 (1265)	<AE258D94-0272-394F-BBB7-9B5C165A4A78>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  com.apple.HIToolbox	2.1	<74E2DE33-E48E-3206-BD78-AFB988235A83>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+
+  62 8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 27890
+    62 8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 5253
+      62 8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 5627
+        56 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 70907
+          56 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 114514
+            56 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 71167
+              29 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 72487
+                29 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 78670
+                  29 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 102042
+                    29 C5641F6C-E271-380A-A656-AE4C04345602 + 77690
+              22 0F1C111F-1E64-33BB-A69F-14643B3037D5 + 75696
+                21 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 54202
+                  21 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 21218
+                    20 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 27555
+                      19 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 38246
+                        16 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 40287
+                          15 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 24400
+                            14 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 180102
+                              14 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 326269
+                                14 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 180102
+                                  14 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 26283
+                                    14 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 180521
+                                      13 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 326824
+                                        13 E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 327451
+                                          13 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 40720
+                                            12 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 42707
+                                              12 303B5E17-B3F4-3E0A-935B-E83BA0866941 + 40039
+                                                12 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14551768
+                                                  8  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14551187
+                                                    7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14538177
+                                                      7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14588077
+                                                        7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14587971
+                                                          7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14592174
+                                                            7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14588245
+                                                              7  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14587055
+                                                                6  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14538557
+                                                                  5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14521012
+                                                                    5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47205781
+                                                                      5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8379242
+                                                                        5  C5641F6C-E271-380A-A656-AE4C04345602 + 103498
+                                                                  1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47205792
+                                                                    1  <state 0x18>
+                                                                1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14538493
+                                                                  1  <state 0x18>
+                                                    1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14538198
+                                                      1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 19193
+                                                        1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 17719
+                                                          1  <state 0x18>
+                                                  2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14551033
+                                                    2  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                                      1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18572
+                                                        1  <state 0x18>
+                                                      1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6278
+                                                        1  <state 0x18>
+                                                  1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14550857
+                                                    1  <state 0x18>
+                                                  1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14550773
+                                                    1  <state 0x18>
+                                            1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 42649
+                                              1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 269005
+                                                1  <state 0x18>
+                                      1  E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 326622
+                                        1  <state 0x18>
+                            1  875321B9-34EF-3FCC-880C-633FA05223F5 + 21264
+                              1  <state 0x18>
+                          1  E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 24131
+                            1  <state 0x18>
+                        3  E5FFD35D-18CF-333C-BECE-39F8E47BE707 + 24097
+                          3  <state 0x18>
+                      1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 64162
+                        1  <state 0x18>
+                    1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 33384
+                      1  <state 0x18>
+                1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 51476
+                  1  303B5E17-B3F4-3E0A-935B-E83BA0866941 + 1795546
+                    1  <state 0x18>
+              2  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 72819
+                1  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 305282
+                  1  <state 0x18>
+                1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 22797
+                  1  <state 0x18>
+              1  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 75495
+                1  <state 0x18>
+              1  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 73589
+                1  <state 0x18>
+              1  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 72878
+                1  0F1C111F-1E64-33BB-A69F-14643B3037D5 + 78481
+                  1  <state 0x18>
+        6  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8748597
+          6  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8764664
+            5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 45953247
+              5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8764529
+                5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589946
+                  5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                    5  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                      3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8358113
+                        3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8821754
+                          3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8357612
+                            3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13613053
+                              3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13612893
+                                3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13625475
+                                  3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13626295
+                                    3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13617855
+                                      3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 45805361
+                                        2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 46921400
+                                          2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 46881486
+                                            2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13969912
+                                              2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14105190
+                                                2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14055129
+                                                  2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14474422
+                                                    2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13380190
+                                                      2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13436565
+                                                        2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 13437423
+                                                          2  <state 0x18>
+                                        1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47217060
+                                          1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47228040
+                                            1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47224228
+                                              1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8678917
+                                                1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679545
+                                                  1  C5641F6C-E271-380A-A656-AE4C04345602 + 101818
+                                                    1  <state 0x18>
+                      2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8358171
+                        2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593270
+                          2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                            2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47204236
+                              2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 47199152
+                                2  354F284B-2343-3810-9CA2-E28038824F6E + 193395
+                                  2  354F284B-2343-3810-9CA2-E28038824F6E + 154743
+                                    2  354F284B-2343-3810-9CA2-E28038824F6E + 191551
+                                      2  5367BE5A-D475-3FB4-972D-E1DC999A709A + 126839
+                                        2  69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 69415
+                                          2  <state 0x18>
+            1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8764529
+              1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8589946
+                1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                  1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                    1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8603150
+                      1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593926
+                        1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8645140
+                          1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8429930
+                            1  69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 68893
+                              1  69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 28073
+                                1  69F485C9-B3E7-3E36-A06C-D7DFD29D22E1 + 44867
+                                  1  <state 0x18>
+  26 9701C8FF-1C66-3E98-BFA1-3FF0833201FC + 3925
+    26 9701C8FF-1C66-3E98-BFA1-3FF0833201FC + 3960
+      26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 10809
+        26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7676448
+          26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 7679637
+            26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 45890526
+              26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 45908371
+                26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 45905424
+                  26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 1601163
+                    26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8679857
+                      26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8590593
+                        26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360572
+                          26 C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8361803
+                            26 AE258D94-0272-394F-BBB7-9B5C165A4A78 + 103260
+                              26 AE258D94-0272-394F-BBB7-9B5C165A4A78 + 158416
+                                26 AE258D94-0272-394F-BBB7-9B5C165A4A78 + 161193
+                                  26 74E2DE33-E48E-3206-BD78-AFB988235A83 + 178573
+                                    26 74E2DE33-E48E-3206-BD78-AFB988235A83 + 179122
+                                      25 74E2DE33-E48E-3206-BD78-AFB988235A83 + 179757
+                                        23 50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482235
+                                          21 50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482650
+                                            10 50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484302
+                                              8  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 486603
+                                                8  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 548415
+                                                  3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360834
+                                                    3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593081
+                                                      3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360776
+                                                        3  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777848
+                                                          3  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 516302
+                                                            3  C5641F6C-E271-380A-A656-AE4C04345602 + 78026
+                                                  3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360930
+                                                    3  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360776
+                                                      1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777863
+                                                        1  <state 0x18>
+                                                      1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777848
+                                                        1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 516302
+                                                          1  C5641F6C-E271-380A-A656-AE4C04345602 + 78026
+                                                      1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 777446
+                                                        1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 505541
+                                                          1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 192102
+                                                            1  <state 0x18>
+                                                  2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360868
+                                                    2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8593760
+                                                      2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592087
+                                                        1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 3733918
+                                                          1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 3733698
+                                                            1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14523281
+                                                              1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 14520570
+                                                                1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8602431
+                                                                  1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8585529
+                                                                    1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8586010
+                                                                      1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8592715
+                                                                        1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360670
+                                                                          1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 402118
+                                                                            1  C5641F6C-E271-380A-A656-AE4C04345602 + 77690
+                                                        1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 3733922
+                                                          1  <state 0x18>
+                                              1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 486480
+                                                1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 406739
+                                                  1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 285514
+                                                    1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 486912
+                                                      1  <state 0x18>
+                                              1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 486889
+                                                1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18348
+                                                  1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 18401
+                                                    1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6390
+                                                      1  <state 0x18>
+                                            4  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484881
+                                              2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 545702
+                                                2  <state 0x18>
+                                              2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 188289
+                                                2  <state 0x18>
+                                            2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 485059
+                                              1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 1282765
+                                                1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 102948
+                                                  1  31CBE178-E972-30D1-ADC6-4B8345CAE326 + 108015
+                                                    1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 189229
+                                                      1  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 707884
+                                                        1  D06FD754-8CE3-3EB7-BE05-2EF939BBE05F + 9022
+                                                          1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 6140
+                                                            1  <state 0x18>
+                                              1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 1282733
+                                                1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 782491
+                                                  1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 516302
+                                                    1  C5641F6C-E271-380A-A656-AE4C04345602 + 78026
+                                            2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484673
+                                              1  <state 0x18>
+                                              1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 487273
+                                                1  C5641F6C-E271-380A-A656-AE4C04345602 + 77690
+                                            2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484830
+                                              2  C5641F6C-E271-380A-A656-AE4C04345602 + 77606
+                                            1  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 484529
+                                              1  C5641F6C-E271-380A-A656-AE4C04345602 + 77594
+                                          2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482677
+                                            2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 546031
+                                              2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 546206
+                                                2  C8E76491-4227-3AEA-A77D-0A0B352A7BC6 + 8360095
+                                                  2  <state 0x18>
+                                        2  50F70E07-043A-3A2F-87EF-A36BA6C5C9D9 + 482136
+                                          2  <state 0x18>
+                                      1  74E2DE33-E48E-3206-BD78-AFB988235A83 + 179727
+                                        1  74E2DE33-E48E-3206-BD78-AFB988235A83 + 31947
+                                          1  <state 0x18>
+  1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 27854
+    1  8B1B7B84-1B5D-32A8-AC0D-1E689E5C8A4C + 11514
+      1  C5641F6C-E271-380A-A656-AE4C04345602 + 98111
+
+
+Powerstats for:  coreaudiod
+Microstackshots: 43 samples
+Primary state:   36 samples state 0x98
+  Binary Images:
+  coreaudiod	(309.9)	<DEDBDCAC-4B1B-371B-964C-33D415DF89DC>	/usr/sbin/coreaudiod
+  com.apple.framework.IOKit	2.0.1	<C1E95F5C-B79B-31BE-9F2A-1B25163C1F16>	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  43 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    43 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      43 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        43 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 36169
+          43 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 156239
+            43 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 156448
+              34 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 166449
+                16 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 169258
+                  16 DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 128272
+                    16 C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 26854
+                8  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 168808
+                  8  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 37378
+                    8  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 37288
+                      8  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                3  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 168860
+                  2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 74151
+                    2  AB498556-B555-310E-9041-F67EC9E00E2C + 10568
+                      2  <state 0x18>
+                  1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 5474
+                    1  <state 0x18>
+                2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 89402
+                2  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 168833
+                  1  AB498556-B555-310E-9041-F67EC9E00E2C + 22072
+                    1  <state 0x18>
+                  1  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 54637
+                    1  AB498556-B555-310E-9041-F67EC9E00E2C + 6950
+                      1  <state 0x18>
+                2  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 169187
+                  2  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 186838
+                    2  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 170670
+                1  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 186633
+                  1  <state 0x18>
+              9  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 165691
+                9  DEDBDCAC-4B1B-371B-964C-33D415DF89DC + 55357
+                  8  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 87830
+                  1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 74116
+                    1  <state 0x18>
+
+
+Powerstats for:  Terminal
+Microstackshots: 31 samples
+Primary state:   23 samples state 0x1a
+  Binary Images:
+  com.apple.Terminal	2.4 (326)	<D5A26EE7-F574-39EE-9479-021D1628E8F8>	/Applications/Utilities/Terminal.app/Contents/MacOS/Terminal
+  com.apple.HIToolbox	2.1	<C4DE35FF-D0AC-35C3-A7E6-F54CD153825C>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  com.apple.AppKit	6.9 (1265)	<0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  libobjc.A.dylib	(551.1)	<AD7FD984-271E-30F4-A361-6B20319EC73B>	/usr/lib/libobjc.A.dylib
+  libsystem_malloc.dylib	(23.1.10)	<FFE5C472-B23A-318A-85BF-77CDE61900D1>	/usr/lib/system/libsystem_malloc.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  com.apple.CoreGraphics	1.600.0	<7D0FD5A7-A061-39BA-8E00-723825D2C4DD>	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  libsystem_platform.dylib	(24.1.4)	<331BA4A5-55CE-3B95-99EB-44E0C89D7FB8>	/usr/lib/system/libsystem_platform.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+  com.apple.Foundation	6.9 (1056)	<D608EDFD-9634-3573-9B7E-081C7D085F7A>	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+  libsystem_c.dylib	(997.1.1)	<61833FAA-7281-3FF9-937F-686B6F20427C>	/usr/lib/system/libsystem_c.dylib
+  com.apple.QuartzCore	1.8 (332.0)	<994D1E0A-64B6-398C-B9A2-C362F02DE943>	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+
+  16 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    16 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      16 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        12 D608EDFD-9634-3573-9B7E-081C7D085F7A + 423691
+          6  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2654502
+            4  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 77846
+              2  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 79849
+                2  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 140049
+              2  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 79831
+                2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 68749
+                  2  <state 0x18>
+            2  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 1487062
+          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2654883
+          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2654822
+            2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 452417
+          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2654893
+            1  61833FAA-7281-3FF9-937F-686B6F20427C + 507218
+              1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 88634
+                1  <state 0x9a>
+          1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 88490
+            1  <state 0x9a>
+        4  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1851854
+          4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+            4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461782
+              3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 522974
+                3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 523113
+                  3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 523524
+                    3  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 224198
+                      1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 224333
+                        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 225322
+                          1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 225618
+                            1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 238675
+                      1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 224765
+                        1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 381788
+                          1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 316895
+                            1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 219967
+                              1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 44312
+                                1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 127060
+                      1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 224737
+                        1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 278431
+              1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 523011
+                1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 104038
+  13 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    13 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 10243
+      13 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96716
+        13 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 145627
+          13 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 148110
+            13 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191164
+              12 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191671
+                12 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                  12 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                    4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461477
+                      4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1206122
+                        4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 741983
+                          4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743204
+                            4  D608EDFD-9634-3573-9B7E-081C7D085F7A + 413844
+                              2  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 172171
+                                2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 724191
+                                  2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 723564
+                                    2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 219168
+                                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 228001
+                              2  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 172150
+                                2  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 99711
+                                  2  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 102850
+                                    2  <state 0x18>
+                    3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461588
+                      3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743481
+                        3  46878A5B-4248-3057-962C-6D4A235EEF31 + 36522
+                          3  46878A5B-4248-3057-962C-6D4A235EEF31 + 14497
+                            3  46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                              2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2399459
+                                2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 19190
+                                  2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2399688
+                                    2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2400901
+                                      2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2406778
+                                        2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2404499
+                                          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2408132
+                                            2  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 223362
+                                              1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 225744
+                                                1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 464339
+                                                  1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 133837
+                                                    1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 246208
+                                                      1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 246637
+                                                        1  FFE5C472-B23A-318A-85BF-77CDE61900D1 + 67708
+                                                          1  FFE5C472-B23A-318A-85BF-77CDE61900D1 + 75460
+                                                            1  FFE5C472-B23A-318A-85BF-77CDE61900D1 + 80956
+                                              1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 225675
+                                                1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 94638
+                                                  1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 95342
+                                                    1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 191175
+                              1  46878A5B-4248-3057-962C-6D4A235EEF31 + 37955
+                                1  46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                                  1  46878A5B-4248-3057-962C-6D4A235EEF31 + 16855
+                                    1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 3584919
+                                      1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 19190
+                                        1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2399688
+                                          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2400901
+                                            1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2406778
+                                              1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2404512
+                                                1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 499726
+                                                  1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 363181
+                                                    1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 104392
+                                                      1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 166088
+                                                        1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 104559
+                                                          1  AD7FD984-271E-30F4-A361-6B20319EC73B + 119806
+                                                            1  AD7FD984-271E-30F4-A361-6B20319EC73B + 27112
+                                                              1  331BA4A5-55CE-3B95-99EB-44E0C89D7FB8 + 11989
+                                                                1  <state 0x18>
+                    2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460728
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520215
+                        2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520359
+                          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 7949521
+                            2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1837214
+                              2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1422906
+                                2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1557001
+                                  2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1569281
+                                    2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1576718
+                                      2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1576718
+                                        2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1576718
+                                          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1571337
+                                            2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 402010
+                                              2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 247260
+                                                2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 247361
+                                                  2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 245120
+                                                    2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 18013
+                    2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461320
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520109
+                        2  AB498556-B555-310E-9041-F67EC9E00E2C + 18675
+                          2  AB498556-B555-310E-9041-F67EC9E00E2C + 17648
+                    1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461113
+                      1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 463637
+                        1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                          1  <state 0x9a>
+              1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191365
+                1  C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                  1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                    1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460728
+                      1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520215
+                        1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520359
+                          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 7949521
+                            1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1837214
+                              1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1422906
+                                1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1557001
+                                  1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1569281
+                                    1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1571408
+                                      1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1581034
+                                        1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1581034
+                                          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1580046
+                                            1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1586073
+                                              1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 125275
+                                                1  D5A26EE7-F574-39EE-9479-021D1628E8F8 + 130457
+                                                  1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2860840
+                                                    1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1616944
+                                                      1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1621969
+                                                        1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1760829
+                                                          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1761186
+                                                            1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 404059
+                                                              1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 248597
+                                                                1  D608EDFD-9634-3573-9B7E-081C7D085F7A + 248234
+                                                                  1  AD7FD984-271E-30F4-A361-6B20319EC73B + 20648
+  2  AB498556-B555-310E-9041-F67EC9E00E2C + 24505
+    2  AB498556-B555-310E-9041-F67EC9E00E2C + 12024
+      2  46878A5B-4248-3057-962C-6D4A235EEF31 + 16787
+        2  46878A5B-4248-3057-962C-6D4A235EEF31 + 12195
+          2  46878A5B-4248-3057-962C-6D4A235EEF31 + 18909
+            2  46878A5B-4248-3057-962C-6D4A235EEF31 + 13967
+              2  46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 19121
+                  2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 19190
+                    2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2419324
+                      2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 2419947
+                        2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 395819
+                          2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 362591
+                            2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 363173
+                              2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 365170
+                                2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 365042
+                                  2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 364834
+                                    2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 297593
+                                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 70192
+
+
+Powerstats for:  Sublime Text
+Microstackshots: 27 samples
+Primary state:   16 samples state 0x1a
+  Binary Images:
+  com.sublimetext.3	Build 3047 (3047)	<8B0F47DD-1949-37D0-B349-21F8CA8D59F8>	/Applications/Sublime Text.app/Contents/MacOS/Sublime Text
+  dyld	(239.3)	<D1DFCF3F-0B0C-332A-BCC0-87A851B570FF>	/usr/lib/dyld
+  com.apple.HIToolbox	2.1	<C4DE35FF-D0AC-35C3-A7E6-F54CD153825C>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  libSystem.B.dylib	(1197.1.1)	<BFC0DC97-46C6-3BE0-9983-54A98734897A>	/usr/lib/libSystem.B.dylib
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  com.apple.AppKit	6.9 (1265)	<0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  libobjc.A.dylib	(551.1)	<AD7FD984-271E-30F4-A361-6B20319EC73B>	/usr/lib/libobjc.A.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  com.apple.CoreGraphics	1.600.0	<7D0FD5A7-A061-39BA-8E00-723825D2C4DD>	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  libsystem_platform.dylib	(24.1.4)	<331BA4A5-55CE-3B95-99EB-44E0C89D7FB8>	/usr/lib/system/libsystem_platform.dylib
+  libsystem_m.dylib	(3047.16)	<B7F0E2E4-2777-33FC-A787-D6430B630D54>	/usr/lib/system/libsystem_m.dylib
+  libRIP.A.dylib	(599.7)	<6F528EE3-99F8-3871-BD60-1306495C27D5>	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/Resources/libRIP.A.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  com.apple.Foundation	6.9 (1056)	<D608EDFD-9634-3573-9B7E-081C7D085F7A>	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+  25 8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 5508
+    25 8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 8859
+      25 8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2067805
+        24 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96716
+          24 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 145627
+            24 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 148110
+              24 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191164
+                24 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191671
+                  24 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                    24 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                      8  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461477
+                        4  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1206122
+                          2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 741983
+                            2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743204
+                              2  D608EDFD-9634-3573-9B7E-081C7D085F7A + 413844
+                                2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1837214
+                                  2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1422906
+                                    2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1557001
+                                      2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1569281
+                                        2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1576718
+                                          2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1573766
+                                            2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1586171
+                                              2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2069346
+                                                2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1997741
+                                                  2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                    2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                      2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                        2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                          2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                            2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1707389
+                                                              2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1706035
+                                                                2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1564257
+                                                                  2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1014667
+                                                                    2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1237098
+                                                                      2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1233270
+                                                                        2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1245890
+                                                                          2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1247600
+                                                                            2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 753610
+                                                                              2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1930875
+                                                                                2  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2031839
+                          2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 741293
+                            2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 492317
+                              2  B7F0E2E4-2777-33FC-A787-D6430B630D54 + 46464
+                        2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1206005
+                          2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 99828
+                            2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 61573
+                              2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 61772
+                                2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 27121
+                        2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1205952
+                          2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 182245
+                      5  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460728
+                        5  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520215
+                          5  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520359
+                            5  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 7949521
+                              5  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1837214
+                                5  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1422906
+                                  3  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1557001
+                                    3  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1569281
+                                      3  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1576718
+                                        3  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1573766
+                                          3  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1586171
+                                            3  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2069763
+                                              3  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 180259
+                                                2  6F528EE3-99F8-3871-BD60-1306495C27D5 + 51243
+                                                  2  6F528EE3-99F8-3871-BD60-1306495C27D5 + 9825
+                                                    2  6F528EE3-99F8-3871-BD60-1306495C27D5 + 22599
+                                                      2  6F528EE3-99F8-3871-BD60-1306495C27D5 + 23008
+                                                        2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 95689
+                                                1  6F528EE3-99F8-3871-BD60-1306495C27D5 + 52223
+                                                  1  6F528EE3-99F8-3871-BD60-1306495C27D5 + 59050
+                                                    1  6F528EE3-99F8-3871-BD60-1306495C27D5 + 59828
+                                                      1  6F528EE3-99F8-3871-BD60-1306495C27D5 + 33927
+                                                        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 99267
+                                                          1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 103600
+                                                            1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 622219
+                                                              1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                                                                1  <state 0x9a>
+                                  2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1558495
+                                    2  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1780311
+                                      2  D608EDFD-9634-3573-9B7E-081C7D085F7A + 129292
+                      3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461113
+                        3  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 463637
+                          3  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                            2  <state 0x9a>
+                            1  <state 0x98>
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461262
+                        2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72134
+                          2  <state 0x9a>
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461456
+                        2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 68766
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461320
+                        2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520259
+                          2  331BA4A5-55CE-3B95-99EB-44E0C89D7FB8 + 11220
+                      1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460896
+                        1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 463637
+                          1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                            1  <state 0x9a>
+                      1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460985
+                        1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72122
+                          1  <state 0x9a>
+        1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96809
+          1  0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 1865540
+            1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2084424
+              1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2071486
+                1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1988699
+                  1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1615085
+                    1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 1615886
+                      1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 916708
+                        1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 634097
+                          1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 398192
+                            1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 441642
+                              1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 520917
+                                1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2186084
+                                  1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2186012
+                                    1  8B0F47DD-1949-37D0-B349-21F8CA8D59F8 + 2185836
+                                      1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72446
+                                        1  <state 0x9a>
+  1  46878A5B-4248-3057-962C-6D4A235EEF31 + 12626
+    1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 91746
+      1  <state 0x9a>
+  1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 4190
+    1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 4731
+      1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 21856
+        1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 8666
+          1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59638
+            1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+              1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+                1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+                  1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+                    1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+                      1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 59883
+                        1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 60002
+                          1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 73146
+                            1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 72750
+                              1  BFC0DC97-46C6-3BE0-9983-54A98734897A + 6819
+                                1  46878A5B-4248-3057-962C-6D4A235EEF31 + 4023
+                                  1  AD7FD984-271E-30F4-A361-6B20319EC73B + 4173
+                                    1  62F4D752-4089-31A8-8B73-B95A68893B3C + 10481
+                                      1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 17020
+                                        1  D1DFCF3F-0B0C-332A-BCC0-87A851B570FF + 17716
+                                          1  AD7FD984-271E-30F4-A361-6B20319EC73B + 5141
+                                            1  AD7FD984-271E-30F4-A361-6B20319EC73B + 6468
+                                              1  AD7FD984-271E-30F4-A361-6B20319EC73B + 11429
+                                                1  AD7FD984-271E-30F4-A361-6B20319EC73B + 66850
+                                                  1  AD7FD984-271E-30F4-A361-6B20319EC73B + 83323
+                                                    1  AD7FD984-271E-30F4-A361-6B20319EC73B + 80719
+                                                      1  AD7FD984-271E-30F4-A361-6B20319EC73B + 50975
+                                                        1  <state 0x18>
+
+
+Powerstats for:  WindowServer
+Microstackshots: 17 samples
+Primary state:   11 samples state 0x98
+  Binary Images:
+  WindowServer	(599.7)	<3962C9A3-3D52-3D3B-BA42-C4670C12982C>	/System/Library/Frameworks/ApplicationServices.framework/Frameworks/CoreGraphics.framework/Resources/WindowServer
+  com.apple.driver.AppleIntelHD5000GraphicsGLDriver	8.18.26 (8.1.8)	<B605607F-D536-3072-A9BF-107877DA1B37>	/System/Library/Extensions/AppleIntelHD5000GraphicsGLDriver.bundle/Contents/MacOS/AppleIntelHD5000GraphicsGLDriver
+  GLEngine	(9.0.83)	<26CCE609-D645-3945-A678-517ED5B65785>	/System/Library/Frameworks/OpenGL.framework/Versions/A/Resources/GLEngine.bundle/GLEngine
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  libobjc.A.dylib	(551.1)	<AD7FD984-271E-30F4-A361-6B20319EC73B>	/usr/lib/libobjc.A.dylib
+  com.apple.framework.IOKit	2.0.1	<C1E95F5C-B79B-31BE-9F2A-1B25163C1F16>	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  com.apple.IOAccelerator	98.7.1 (98.7.1)	<C0D16D6F-8729-3110-BEBA-BE4F53444470>	/System/Library/PrivateFrameworks/IOAccelerator.framework/Versions/A/IOAccelerator
+  com.apple.CoreGraphics	1.600.0	<7D0FD5A7-A061-39BA-8E00-723825D2C4DD>	/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+  libGPUSupportMercury.dylib	(9.0.83)	<A9DF1DD1-8C1E-3A86-AF96-BF3A7D4C8C1B>	/System/Library/PrivateFrameworks/GPUSupport.framework/Versions/A/Libraries/libGPUSupportMercury.dylib
+  com.apple.QuartzCore	1.8 (332.0)	<994D1E0A-64B6-398C-B9A2-C362F02DE943>	/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore
+
+  16 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    16 3962C9A3-3D52-3D3B-BA42-C4670C12982C + 3990
+      16 7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1836742
+        13 7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1834633
+          13 7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4596910
+            10 7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2826461
+              4  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2835495
+                3  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4671194
+                  2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2199302
+                    2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2233470
+                      2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1004601
+                        2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1005302
+                          2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 170424
+                            2  <state 0x18>
+                  1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2199438
+                    1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2199892
+                      1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 60708
+                        1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19953
+                          1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19225
+                            1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                              1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4671011
+                  1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5085065
+                    1  B605607F-D536-3072-A9BF-107877DA1B37 + 3386024
+                      1  B605607F-D536-3072-A9BF-107877DA1B37 + 3372811
+                        1  B605607F-D536-3072-A9BF-107877DA1B37 + 3386416
+                          1  A9DF1DD1-8C1E-3A86-AF96-BF3A7D4C8C1B + 13574
+                            1  C0D16D6F-8729-3110-BEBA-BE4F53444470 + 5972
+                              1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19822
+                                1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19308
+                                  1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                                    1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+              2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2835346
+                2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1847016
+                  2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5101980
+                    2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5104104
+                      2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5120786
+                        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5140893
+                          1  26CCE609-D645-3945-A678-517ED5B65785 + 96587
+                            1  26CCE609-D645-3945-A678-517ED5B65785 + 934597
+                              1  A9DF1DD1-8C1E-3A86-AF96-BF3A7D4C8C1B + 19821
+                                1  B605607F-D536-3072-A9BF-107877DA1B37 + 3891169
+                                  1  A9DF1DD1-8C1E-3A86-AF96-BF3A7D4C8C1B + 36586
+                                    1  C0D16D6F-8729-3110-BEBA-BE4F53444470 + 10804
+                                      1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19308
+                                        1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                                          1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5138419
+                          1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5109105
+                            1  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 880813
+                              1  994D1E0A-64B6-398C-B9A2-C362F02DE943 + 583920
+                                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 51079
+                                  1  <state 0x18>
+              2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2837231
+                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2860753
+                  1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2160757
+                    1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5229030
+                      1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 60708
+                        1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19953
+                          1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19225
+                            1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                              1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2860717
+                  1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 5097705
+                    1  B605607F-D536-3072-A9BF-107877DA1B37 + 3386024
+                      1  B605607F-D536-3072-A9BF-107877DA1B37 + 3372811
+                        1  B605607F-D536-3072-A9BF-107877DA1B37 + 3386416
+                          1  A9DF1DD1-8C1E-3A86-AF96-BF3A7D4C8C1B + 13574
+                            1  C0D16D6F-8729-3110-BEBA-BE4F53444470 + 5972
+                              1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19822
+                                1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19308
+                                  1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                                    1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+              2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2831953
+                2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2854839
+                  2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2880083
+                    2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2161892
+                      2  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 105036
+                        2  AD7FD984-271E-30F4-A361-6B20319EC73B + 28704
+                          2  AD7FD984-271E-30F4-A361-6B20319EC73B + 28822
+                            2  AD7FD984-271E-30F4-A361-6B20319EC73B + 120347
+                              2  AD7FD984-271E-30F4-A361-6B20319EC73B + 120845
+                                2  <state 0x18>
+            2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2826382
+              2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 3457519
+                2  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2200089
+                  2  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 60708
+                    2  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19953
+                      2  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19225
+                        2  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                          2  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+            1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2229270
+              1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2201257
+                1  C0D16D6F-8729-3110-BEBA-BE4F53444470 + 16984
+                  1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19822
+                    1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19225
+                      1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                        1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1835751
+          1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1841291
+            1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2400816
+              1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2926328
+                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2418970
+                  1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4138045
+                    1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4094293
+                      1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 3029532
+                        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4238921
+                          1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4238798
+                            1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2830069
+                              1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4667684
+                                1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2201748
+                                  1  C0D16D6F-8729-3110-BEBA-BE4F53444470 + 17209
+                                    1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19822
+                                      1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 19225
+                                        1  C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 379470
+                                          1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 1835165
+          1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 2392283
+          1  <state 0x18>
+  1  AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    1  AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      1  AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        1  7D0FD5A7-A061-39BA-8E00-723825D2C4DD + 4563676
+          1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1202641
+            1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+              1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461113
+                1  E22C6A1F-8996-349C-905E-96C3BBE07C2F + 463637
+                  1  D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+
+
+Powerstats for:  syslogd
+Microstackshots: 5 samples
+Primary state:   5 samples state 0x18
+  Binary Images:
+  syslogd	(217.1.4)	<E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD>	/usr/sbin/syslogd
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+  libsystem_asl.dylib	(217.1.4)	<655FB343-52CF-3E2F-B14D-BEBF5AAEF94D>	/usr/lib/system/libsystem_asl.dylib
+  libsystem_c.dylib	(997.1.1)	<61833FAA-7281-3FF9-937F-686B6F20427C>	/usr/lib/system/libsystem_c.dylib
+
+  5 AB498556-B555-310E-9041-F67EC9E00E2C + 24505
+    5 AB498556-B555-310E-9041-F67EC9E00E2C + 12024
+      5 46878A5B-4248-3057-962C-6D4A235EEF31 + 16787
+        5 46878A5B-4248-3057-962C-6D4A235EEF31 + 12195
+          5 46878A5B-4248-3057-962C-6D4A235EEF31 + 18909
+            5 46878A5B-4248-3057-962C-6D4A235EEF31 + 13967
+              5 46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                5 46878A5B-4248-3057-962C-6D4A235EEF31 + 16855
+                  5 E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD + 3572
+                    3 E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD + 4844
+                      2 E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD + 31072
+                        1 655FB343-52CF-3E2F-B14D-BEBF5AAEF94D + 60123
+                          1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 74088
+                        1 655FB343-52CF-3E2F-B14D-BEBF5AAEF94D + 59875
+                          1 655FB343-52CF-3E2F-B14D-BEBF5AAEF94D + 18084
+                            1 61833FAA-7281-3FF9-937F-686B6F20427C + 462417
+                              1 61833FAA-7281-3FF9-937F-686B6F20427C + 462784
+                                1 61833FAA-7281-3FF9-937F-686B6F20427C + 495112
+                      1 E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD + 30740
+                    2 E637ABF2-C2AC-3D4A-817D-BAF4BBD21DCD + 5049
+                      2 655FB343-52CF-3E2F-B14D-BEBF5AAEF94D + 52684
+                        2 655FB343-52CF-3E2F-B14D-BEBF5AAEF94D + 47061
+                          2 61833FAA-7281-3FF9-937F-686B6F20427C + 352093
+                            2 61833FAA-7281-3FF9-937F-686B6F20427C + 344963
+                              2 61833FAA-7281-3FF9-937F-686B6F20427C + 356332
+                                2 61833FAA-7281-3FF9-937F-686B6F20427C + 359779
+                                  2 61833FAA-7281-3FF9-937F-686B6F20427C + 360942
+                                    2 61833FAA-7281-3FF9-937F-686B6F20427C + 276367
+                                      1 61833FAA-7281-3FF9-937F-686B6F20427C + 340605
+                                        1 61833FAA-7281-3FF9-937F-686B6F20427C + 447355
+                                          1 61833FAA-7281-3FF9-937F-686B6F20427C + 281997
+                                      1 61833FAA-7281-3FF9-937F-686B6F20427C + 340356
+
+
+Powerstats for:  hidd
+Microstackshots: 4 samples
+Primary state:   3 samples state 0x18
+  Binary Images:
+  hidd	(503.1.13)	<E1D2C14B-1147-3219-9D2D-E4699F159A2F>	/usr/libexec/hidd
+  com.apple.iokit.plugin.MultitouchHID	245.13 (245.13)	<8E8873FD-3B85-3278-AF0C-A9F2F4C0D1EA>	/System/Library/Extensions/AppleMultitouchDriver.kext/Contents/PlugIns/MultitouchHID.plugin/Contents/MacOS/MultitouchHID
+  libobjc.A.dylib	(551.1)	<AD7FD984-271E-30F4-A361-6B20319EC73B>	/usr/lib/libobjc.A.dylib
+  com.apple.framework.IOKit	2.0.1	<C1E95F5C-B79B-31BE-9F2A-1B25163C1F16>	/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+  com.apple.MultitouchSupport.framework	245.13 (245.13)	<D5E7416D-45AB-3690-86C6-CC4B5FCEA2D2>	/System/Library/PrivateFrameworks/MultitouchSupport.framework/Versions/A/MultitouchSupport
+
+  3 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    3 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      3 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        3 C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 219430
+          3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1202641
+            3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+              3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461782
+                3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 522974
+                  3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 523113
+                    3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 523524
+                      2 D5E7416D-45AB-3690-86C6-CC4B5FCEA2D2 + 15595
+                        2 D5E7416D-45AB-3690-86C6-CC4B5FCEA2D2 + 19453
+                          2 D5E7416D-45AB-3690-86C6-CC4B5FCEA2D2 + 34612
+                            2 8E8873FD-3B85-3278-AF0C-A9F2F4C0D1EA + 108619
+                              2 8E8873FD-3B85-3278-AF0C-A9F2F4C0D1EA + 112671
+                                2 8E8873FD-3B85-3278-AF0C-A9F2F4C0D1EA + 94470
+                                  2 8E8873FD-3B85-3278-AF0C-A9F2F4C0D1EA + 95187
+                                    2 C1E95F5C-B79B-31BE-9F2A-1B25163C1F16 + 164372
+                                      2 AD7FD984-271E-30F4-A361-6B20319EC73B + 28579
+                      1 D5E7416D-45AB-3690-86C6-CC4B5FCEA2D2 + 65466
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24492
+    1 <state 0x98>
+
+
+Powerstats for:  loginwindow
+Microstackshots: 4 samples
+Primary state:   4 samples state 0x18
+  Binary Images:
+  com.apple.loginwindow	9.0 (9.0)	<48A93A57-9D42-3F58-9D1D-31560B8DECAB>	/System/Library/CoreServices/loginwindow.app/Contents/MacOS/loginwindow
+  com.apple.DisplayServices	2.8 (360.8.14)	<AD06D524-6BF0-362F-BFE7-D19DB1B586D7>	/System/Library/LoginPlugins/DisplayServices.loginPlugin/Contents/MacOS/DisplayServices
+  com.apple.HIToolbox	2.1	<C4DE35FF-D0AC-35C3-A7E6-F54CD153825C>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  com.apple.AppKit	6.9 (1265)	<0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+  libsystem_c.dylib	(997.1.1)	<61833FAA-7281-3FF9-937F-686B6F20427C>	/usr/lib/system/libsystem_c.dylib
+
+  4 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    4 48A93A57-9D42-3F58-9D1D-31560B8DECAB + 21378
+      4 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96716
+        4 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 145627
+          4 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 148110
+            4 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191164
+              4 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191671
+                4 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                  4 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                    3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461588
+                      3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743481
+                        3 46878A5B-4248-3057-962C-6D4A235EEF31 + 36611
+                          3 46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                            3 46878A5B-4248-3057-962C-6D4A235EEF31 + 16855
+                              3 AD06D524-6BF0-362F-BFE7-D19DB1B586D7 + 41020
+                                3 AD06D524-6BF0-362F-BFE7-D19DB1B586D7 + 41201
+                                  3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 242750
+                                    1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 253716
+                                    1 61833FAA-7281-3FF9-937F-686B6F20427C + 6144
+                                    1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 246580
+                    1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 460947
+                      1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 520144
+                        1 AB498556-B555-310E-9041-F67EC9E00E2C + 17979
+
+
+Powerstats for:  Flux
+Microstackshots: 3 samples
+Primary state:   3 samples state 0x18
+  Binary Images:
+  org.herf.Flux	(23.0)	<0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA>	/Users/USER/*/Flux.app/Contents/MacOS/Flux
+  com.apple.HIToolbox	2.1	<C4DE35FF-D0AC-35C3-A7E6-F54CD153825C>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  com.apple.AppKit	6.9 (1265)	<0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  libobjc.A.dylib	(551.1)	<AD7FD984-271E-30F4-A361-6B20319EC73B>	/usr/lib/libobjc.A.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  com.apple.Foundation	6.9 (1056)	<D608EDFD-9634-3573-9B7E-081C7D085F7A>	/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation
+
+  3 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 7940
+    3 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 10243
+      3 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96716
+        3 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 145627
+          3 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 148110
+            3 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191164
+              3 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191671
+                3 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                  3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                    3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461477
+                      3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1206122
+                        3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 741983
+                          3 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743204
+                            3 D608EDFD-9634-3573-9B7E-081C7D085F7A + 413844
+                              3 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 16649
+                                3 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 13848
+                                  3 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 12240
+                                    2 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 10482
+                                      2 AD7FD984-271E-30F4-A361-6B20319EC73B + 20648
+                                    1 0F0BBACA-407D-3A1B-A5D7-A2A3F9EC8ACA + 10669
+                                      1 AD7FD984-271E-30F4-A361-6B20319EC73B + 20643
+
+
+Powerstats for:  DashboardClient
+Microstackshots: 2 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  com.apple.dashboard.client	1.8 (1.8)	<0DE3C8C6-0492-3209-A6CF-5A5373671C06>	/System/Library/CoreServices/Dock.app/Contents/Resources/DashboardClient.app/Contents/MacOS/DashboardClient
+  com.apple.HIToolbox	2.1	<C4DE35FF-D0AC-35C3-A7E6-F54CD153825C>	/System/Library/Frameworks/Carbon.framework/Versions/A/Frameworks/HIToolbox.framework/Versions/A/HIToolbox
+  com.apple.AppKit	6.9 (1265)	<0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01>	/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit
+  com.apple.WebCore	9537 (9537.70)	<7A90E9D3-4F26-3049-9C96-C6B8CB1395C8>	/System/Library/Frameworks/WebKit.framework/Versions/A/Frameworks/WebCore.framework/Versions/A/WebCore
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  com.apple.CoreFoundation	6.9 (855.11)	<E22C6A1F-8996-349C-905E-96C3BBE07C2F>	/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+
+  2 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    2 0DE3C8C6-0492-3209-A6CF-5A5373671C06 + 19194
+      2 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 96716
+        2 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 145627
+          2 0E9FC8BF-DA3C-34C5-91CC-12BC922B5F01 + 148110
+            2 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191164
+              2 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 191671
+                2 C4DE35FF-D0AC-35C3-A7E6-F54CD153825C + 192269
+                  2 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 459381
+                    2 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 461477
+                      2 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 1206122
+                        2 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 741983
+                          2 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 743204
+                            2 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 171562
+                              1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 170132
+                                1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 491147
+                                  1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 386877
+                                    1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 273660
+                                      1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 386946
+                                        1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 491293
+                                          1 E22C6A1F-8996-349C-905E-96C3BBE07C2F + 491647
+                                            1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72542
+                              1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 171855
+                                1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 1822581
+                                  1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 855036
+                                    1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 855975
+                                      1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 856530
+                                        1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 856898
+                                          1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 2683555
+                                            1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 2707127
+                                              1 7A90E9D3-4F26-3049-9C96-C6B8CB1395C8 + 2707414
+                                                1 <state 0x18>
+
+
+Powerstats for:  vim
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x18
+  Binary Images:
+  		<96B27144-9A25-354C-A856-84AEA437D71F>	
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  libsystem_malloc.dylib	(23.1.10)	<FFE5C472-B23A-318A-85BF-77CDE61900D1>	/usr/lib/system/libsystem_malloc.dylib
+
+  1 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    1 96B27144-9A25-354C-A856-84AEA437D71F + 491588
+      1 96B27144-9A25-354C-A856-84AEA437D71F + 260890
+        1 96B27144-9A25-354C-A856-84AEA437D71F + 262683
+          1 96B27144-9A25-354C-A856-84AEA437D71F + 272711
+            1 96B27144-9A25-354C-A856-84AEA437D71F + 405197
+              1 96B27144-9A25-354C-A856-84AEA437D71F + 406576
+                1 96B27144-9A25-354C-A856-84AEA437D71F + 635128
+                  1 96B27144-9A25-354C-A856-84AEA437D71F + 634610
+                    1 FFE5C472-B23A-318A-85BF-77CDE61900D1 + 70288
+                      1 FFE5C472-B23A-318A-85BF-77CDE61900D1 + 67708
+                        1 FFE5C472-B23A-318A-85BF-77CDE61900D1 + 58327
+                          1 FFE5C472-B23A-318A-85BF-77CDE61900D1 + 56876
+
+
+Powerstats for:  mdworker
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x99
+  Binary Images:
+  mdworker	(800.12)	<7C31F318-19D2-3217-B035-4ED73ED7BB6C>	/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Versions/A/Support/mdworker
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    1 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      1 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        1 7C31F318-19D2-3217-B035-4ED73ED7BB6C + 51890
+          1 7C31F318-19D2-3217-B035-4ED73ED7BB6C + 54253
+            1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 65906
+              1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+
+
+Powerstats for:  fseventsd
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  fseventsd	(1077.13)	<16393192-CE85-3037-8343-C29A9A8D7490>	/System/Library/Frameworks/CoreServices.framework/Versions/A/Frameworks/CarbonCore.framework/Versions/A/Support/fseventsd
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    1 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      1 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        1 16393192-CE85-3037-8343-C29A9A8D7490 + 34440
+          1 16393192-CE85-3037-8343-C29A9A8D7490 + 10559
+            1 16393192-CE85-3037-8343-C29A9A8D7490 + 5875
+              1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72218
+
+
+Powerstats for:  UserEventAgent
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  UserEventAgent	(123.1.12)	<55428B1C-9198-32BF-80EA-4731081F402E>	/usr/libexec/UserEventAgent
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    1 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      1 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 88490
+
+
+Powerstats for:  ssh
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  		<C11698DB-BF5E-3DCC-9A14-9EA2995FFFE1>	
+  libdyld.dylib	(239.3)	<62F4D752-4089-31A8-8B73-B95A68893B3C>	/usr/lib/system/libdyld.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+
+  1 62F4D752-4089-31A8-8B73-B95A68893B3C + 13821
+    1 C11698DB-BF5E-3DCC-9A14-9EA2995FFFE1 + 61312
+      1 C11698DB-BF5E-3DCC-9A14-9EA2995FFFE1 + 19771
+        1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 92658
+
+
+Powerstats for:  mds
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x19
+  Binary Images:
+  mds	(800.12)	<ECAC8950-9CB9-3BB6-A6A7-7F3DF0E7F23B>	/System/Library/Frameworks/CoreServices.framework/Frameworks/Metadata.framework/Support/mds
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24505
+    1 AB498556-B555-310E-9041-F67EC9E00E2C + 12024
+      1 46878A5B-4248-3057-962C-6D4A235EEF31 + 16787
+        1 46878A5B-4248-3057-962C-6D4A235EEF31 + 12195
+          1 46878A5B-4248-3057-962C-6D4A235EEF31 + 18909
+            1 46878A5B-4248-3057-962C-6D4A235EEF31 + 13875
+              1 46878A5B-4248-3057-962C-6D4A235EEF31 + 14497
+                1 46878A5B-4248-3057-962C-6D4A235EEF31 + 4781
+                  1 ECAC8950-9CB9-3BB6-A6A7-7F3DF0E7F23B + 922443
+                    1 ECAC8950-9CB9-3BB6-A6A7-7F3DF0E7F23B + 407347
+                      1 ECAC8950-9CB9-3BB6-A6A7-7F3DF0E7F23B + 922474
+
+
+Powerstats for:  plugin_host
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  plugin_host		<6E6CD811-D98D-3877-82F8-DFCC5CD4CB90>	/Applications/Sublime Text.app/Contents/MacOS/plugin_host
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+  libsystem_pthread.dylib	(53.1.4)	<AB498556-B555-310E-9041-F67EC9E00E2C>	/usr/lib/system/libsystem_pthread.dylib
+
+  1 AB498556-B555-310E-9041-F67EC9E00E2C + 24521
+    1 AB498556-B555-310E-9041-F67EC9E00E2C + 5930
+      1 AB498556-B555-310E-9041-F67EC9E00E2C + 6297
+        1 6E6CD811-D98D-3877-82F8-DFCC5CD4CB90 + 6268
+          1 6E6CD811-D98D-3877-82F8-DFCC5CD4CB90 + 181128
+            1 6E6CD811-D98D-3877-82F8-DFCC5CD4CB90 + 181056
+              1 6E6CD811-D98D-3877-82F8-DFCC5CD4CB90 + 180880
+                1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 72446
+
+
+Powerstats for:  distnoted
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  distnoted	(855.11)	<AA75B4AA-BD32-39CE-872B-75841763D8F0>	/usr/sbin/distnoted
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+
+  1 46878A5B-4248-3057-962C-6D4A235EEF31 + 12626
+    1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 91746
+
+
+Powerstats for:  cfprefsd
+Microstackshots: 1 samples
+Primary state:   1 samples state 0x98
+  Binary Images:
+  cfprefsd	(855.11)	<7BBAC830-72CD-3FD5-9BD7-DCFE71660363>	/usr/sbin/cfprefsd
+  libdispatch.dylib	(339.1.9)	<46878A5B-4248-3057-962C-6D4A235EEF31>	/usr/lib/system/libdispatch.dylib
+  libsystem_kernel.dylib	(2422.1.72)	<D14913DB-47F1-3591-8DAF-D4B4EF5F8818>	/usr/lib/system/libsystem_kernel.dylib
+
+  1 46878A5B-4248-3057-962C-6D4A235EEF31 + 12626
+    1 46878A5B-4248-3057-962C-6D4A235EEF31 + 13227
+      1 46878A5B-4248-3057-962C-6D4A235EEF31 + 35555
+        1 46878A5B-4248-3057-962C-6D4A235EEF31 + 8727
+          1 46878A5B-4248-3057-962C-6D4A235EEF31 + 11169
+            1 D14913DB-47F1-3591-8DAF-D4B4EF5F8818 + 89706
+
+================================================================
+Rank:            1
+C-State res:     0.0%
+Interrupt Rate:  174926 Hz
+Proc Idle Wkups: 18282
+CPU time:        00:05:26 (99.3%)
+                 00:04:21 (79.4%) 9893 kernel_task
+                 00:00:21 (6.6%) 1076 Google Chrome H
+                 00:00:12 (3.9%) 4263 com.apple.audio.coreaudiod
+                 00:00:12 (3.8%) 1157 com.google.Chrome
+                 00:00:04 (1.3%) 1491 com.apple.WindowServer
+Power:           -8804 mW (-16.7 %/hr)

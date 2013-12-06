@@ -1,0 +1,109 @@
+Process:         ac3 [31320]
+Path:            /Users/USER/Documents/*/ac3
+Identifier:      ac3
+Version:         0
+Code Type:       X86-64 (Native)
+Parent Process:  bash [30636]
+User ID:         501
+
+Date/Time:       2013-10-21 00:39:40.892 -0400
+OS Version:      Mac OS X 10.8.5 (12F37)
+Report Version:  10
+
+Crashed Thread:  0  Dispatch queue: com.apple.main-thread
+
+Exception Type:  EXC_CRASH (SIGABRT)
+Exception Codes: 0x0000000000000000, 0x0000000000000000
+
+Application Specific Information:
+abort() called
+
+Thread 0 Crashed:: Dispatch queue: com.apple.main-thread
+0   libsystem_kernel.dylib        	0x00007fff88358d46 __kill + 10
+1   libsystem_c.dylib             	0x00007fff9080ff83 abort + 177
+2   libstdc++.6.dylib             	0x000000010982b70b __gnu_cxx::__verbose_terminate_handler() + 315
+3   libstdc++.6.dylib             	0x0000000109829598 __cxxabiv1::__terminate(void (*)()) + 8
+4   libstdc++.6.dylib             	0x00000001098295e3 std::terminate() + 19
+5   libstdc++.6.dylib             	0x000000010982980e __cxa_throw + 94
+6   ac3                           	0x0000000109802819 Sudoku::Sudoku(std::string, bool) + 201
+7   ac3                           	0x0000000109802744 Sudoku::Sudoku(std::string, bool) + 36
+8   ac3                           	0x0000000109803227 Puzzles::nextPuzzle() + 151
+9   ac3                           	0x0000000109807214 main + 136
+10  libdyld.dylib                 	0x00007fff87b127e1 start + 1
+
+Thread 0 crashed with X86 Thread State (64-bit):
+  rax: 0x0000000000000000  rbx: 0x00007fff563fe3d0  rcx: 0x00007fff563fe3b8  rdx: 0x0000000000000000
+  rdi: 0x0000000000007a58  rsi: 0x0000000000000006  rbp: 0x00007fff563fe3e0  rsp: 0x00007fff563fe3b8
+   r8: 0x00007fa233c000e0   r9: 0x000000000000000e  r10: 0x00007fff8835a342  r11: 0x0000000000000202
+  r12: 0x00007fa233c000e0  r13: 0x0000000000000000  r14: 0x0000000000000000  r15: 0x0000000000000000
+  rip: 0x00007fff88358d46  rfl: 0x0000000000000202  cr2: 0x00007fff756fcff0
+Logical CPU: 0
+
+Binary Images:
+       0x109801000 -        0x10980eff7 +ac3 (0) <AC67F886-36C8-33B8-84BD-69931F6C6E5C> /Users/USER/Documents/*/ac3
+       0x109826000 -        0x1098cffff +libstdc++.6.dylib (0) <E50B1600-A2EA-3F39-BCBA-8967CDF56532> /usr/local/Cellar/gcc48/4.8.2/gcc/lib/libstdc++.6.dylib
+       0x1099cf000 -        0x1099e3fe7 +libgcc_s.1.dylib (0) <D39F250F-C39A-392A-9D5D-20D1A8F56378> /usr/local/Cellar/gcc48/4.8.2/gcc/lib/libgcc_s.1.dylib
+    0x7fff69401000 -     0x7fff6943594f  dyld (210.2.3) <8958FE97-5830-3928-BC38-23136E7D3783> /usr/lib/dyld
+    0x7fff83cff000 -     0x7fff83d00fff  libDiagnosticMessagesClient.dylib (8) <8548E0DC-0D2F-30B6-B045-FE8A038E76D8> /usr/lib/libDiagnosticMessagesClient.dylib
+    0x7fff83d01000 -     0x7fff83d0fff7  libsystem_network.dylib (77.10) <0D99F24E-56FE-380F-B81B-4A4C630EE587> /usr/lib/system/libsystem_network.dylib
+    0x7fff83f0b000 -     0x7fff83f0cff7  libSystem.B.dylib (169.3) <AE5C5927-6C60-367F-BB7A-55AA351275F9> /usr/lib/libSystem.B.dylib
+    0x7fff83fb2000 -     0x7fff840ca92f  libobjc.A.dylib (532.2) <90D31928-F48D-3E37-874F-220A51FD9E37> /usr/lib/libobjc.A.dylib
+    0x7fff8481b000 -     0x7fff8481cff7  libsystem_sandbox.dylib (220.3) <B739DA63-B675-387A-AD84-412A651143C0> /usr/lib/system/libsystem_sandbox.dylib
+    0x7fff8494e000 -     0x7fff84973ff7  libc++abi.dylib (26) <D86169F3-9F31-377A-9AF3-DB17142052E4> /usr/lib/libc++abi.dylib
+    0x7fff84a32000 -     0x7fff84a9aff7  libc++.1.dylib (65.1) <20E31B90-19B9-3C2A-A9EB-474E08F9FE05> /usr/lib/libc++.1.dylib
+    0x7fff84b67000 -     0x7fff84b89ff7  libxpc.dylib (140.43) <70BC645B-6952-3264-930C-C835010CCEF9> /usr/lib/system/libxpc.dylib
+    0x7fff854c6000 -     0x7fff85512ff7  libauto.dylib (185.4) <D047EBE3-4AA1-3C82-AC7A-F9D3AF0D9A74> /usr/lib/libauto.dylib
+    0x7fff85758000 -     0x7fff85759ff7  libremovefile.dylib (23.2) <6763BC8E-18B8-3AD9-8FFA-B43713A7264F> /usr/lib/system/libremovefile.dylib
+    0x7fff85d68000 -     0x7fff85d68fff  libkeymgr.dylib (25) <CC9E3394-BE16-397F-926B-E579B60EE429> /usr/lib/system/libkeymgr.dylib
+    0x7fff8613d000 -     0x7fff8614bfff  libcommonCrypto.dylib (60027) <BAAFE0C9-BB86-3CA7-88C0-E3CBA98DA06F> /usr/lib/system/libcommonCrypto.dylib
+    0x7fff86cd2000 -     0x7fff86cd7fff  libcompiler_rt.dylib (30) <08F8731D-5961-39F1-AD00-4590321D24A9> /usr/lib/system/libcompiler_rt.dylib
+    0x7fff870b3000 -     0x7fff870b4ff7  libdnsinfo.dylib (453.19) <14202FFB-C3CA-3FCC-94B0-14611BF8692D> /usr/lib/system/libdnsinfo.dylib
+    0x7fff87b10000 -     0x7fff87b13ff7  libdyld.dylib (210.2.3) <F59367C9-C110-382B-A695-9035A6DD387E> /usr/lib/system/libdyld.dylib
+    0x7fff88347000 -     0x7fff88362ff7  libsystem_kernel.dylib (2050.48.11) <3323E9AD-2317-3C7A-AB7F-1C81F5E148B7> /usr/lib/system/libsystem_kernel.dylib
+    0x7fff8923a000 -     0x7fff89242fff  liblaunch.dylib (442.26.2) <16D518EF-B8F4-3FA2-8722-C1CDEA236912> /usr/lib/system/liblaunch.dylib
+    0x7fff8c8d7000 -     0x7fff8c8dcfff  libcache.dylib (57) <65187C6E-3FBF-3EB8-A1AA-389445E2984D> /usr/lib/system/libcache.dylib
+    0x7fff8cafb000 -     0x7fff8cb31fff  libsystem_info.dylib (406.17) <4FFCA242-7F04-365F-87A6-D4EFB89503C1> /usr/lib/system/libsystem_info.dylib
+    0x7fff8dac0000 -     0x7fff8dac2fff  libquarantine.dylib (52.1) <143B726E-DF47-37A8-90AA-F059CFD1A2E4> /usr/lib/system/libquarantine.dylib
+    0x7fff8db13000 -     0x7fff8db1efff  libsystem_notify.dylib (98.5) <C49275CC-835A-3207-AFBA-8C01374927B6> /usr/lib/system/libsystem_notify.dylib
+    0x7fff8db71000 -     0x7fff8db79ff7  libsystem_dnssd.dylib (379.38.1) <5A34E09D-A4FC-349B-9925-E0BE5230402A> /usr/lib/system/libsystem_dnssd.dylib
+    0x7fff8dbf1000 -     0x7fff8dbf7ff7  libunwind.dylib (35.1) <21703D36-2DAB-3D8B-8442-EAAB23C060D3> /usr/lib/system/libunwind.dylib
+    0x7fff8dbf8000 -     0x7fff8dc0dff7  libdispatch.dylib (228.23) <D26996BF-FC57-39EB-8829-F63585561E09> /usr/lib/system/libdispatch.dylib
+    0x7fff8e68d000 -     0x7fff8e68fff7  libunc.dylib (25) <92805328-CD36-34FF-9436-571AB0485072> /usr/lib/system/libunc.dylib
+    0x7fff8e95a000 -     0x7fff8e988ff7  libsystem_m.dylib (3022.6) <B434BE5C-25AB-3EBD-BAA7-5304B34E3441> /usr/lib/system/libsystem_m.dylib
+    0x7fff8ff20000 -     0x7fff8ff6fff7  libcorecrypto.dylib (106.2) <CE0C29A3-C420-339B-ADAA-52F4683233CC> /usr/lib/system/libcorecrypto.dylib
+    0x7fff8ff86000 -     0x7fff8ff87fff  libsystem_blocks.dylib (59) <D92DCBC3-541C-37BD-AADE-ACC75A0C59C8> /usr/lib/system/libsystem_blocks.dylib
+    0x7fff90190000 -     0x7fff90197fff  libcopyfile.dylib (89) <876573D0-E907-3566-A108-577EAD1B6182> /usr/lib/system/libcopyfile.dylib
+    0x7fff9022a000 -     0x7fff90230fff  libmacho.dylib (829) <BF332AD9-E89F-387E-92A4-6E1AB74BD4D9> /usr/lib/system/libmacho.dylib
+    0x7fff907b6000 -     0x7fff90882ff7  libsystem_c.dylib (825.40.1) <543B05AE-CFA5-3EFE-8E58-77225411BA6B> /usr/lib/system/libsystem_c.dylib
+
+External Modification Summary:
+  Calls made by other processes targeting this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by this process:
+    task_for_pid: 0
+    thread_create: 0
+    thread_set_state: 0
+  Calls made by all processes on this machine:
+    task_for_pid: 1446
+    thread_create: 0
+    thread_set_state: 0
+
+VM Region Summary:
+ReadOnly portion of Libraries: Total=58.4M resident=16.1M(28%) swapped_out_or_unallocated=42.3M(72%)
+Writable regions: Total=17.5M written=100K(1%) resident=156K(1%) swapped_out=0K(0%) unallocated=17.3M(99%)
+ 
+REGION TYPE                      VIRTUAL
+===========                      =======
+MALLOC                             9396K
+MALLOC guard page                    16K
+STACK GUARD                        56.0M
+Stack                              8192K
+__DATA                              836K
+__LINKEDIT                         53.1M
+__TEXT                             5392K
+shared memory                        12K
+===========                      =======
+TOTAL                             132.4M
+

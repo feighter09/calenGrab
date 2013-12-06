@@ -1,0 +1,514 @@
+Active Internet connections
+Proto Recv-Q Send-Q  Local Address          Foreign Address        (state)    
+tcp4       0   1465  192.168.1.199.56519    173.194.46.80.http     ESTABLISHED
+tcp4       0      0  localhost.63724        localhost.63728        ESTABLISHED
+tcp4       0      0  localhost.63728        localhost.63724        ESTABLISHED
+tcp4       0      0  localhost.63724        localhost.63727        ESTABLISHED
+tcp4       0      0  localhost.63727        localhost.63724        ESTABLISHED
+tcp4       0      0  localhost.63724        localhost.63726        ESTABLISHED
+tcp4       0      0  localhost.63726        localhost.63724        ESTABLISHED
+udp4       0      0  67.194.223.50.16403    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  austins-macbook-.ntp   *.*                               
+udp4       0      0  localhost.ntp          *.*                               
+udp6       0      0  localhost.ntp          *.*                               
+udp6       0      0  *.ntp                  *.*                               
+udp4       0      0  *.ntp                  *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp46      0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp6       0      0  *.mdns                 *.*                               
+udp4       0      0  *.mdns                 *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.*                    *.*                               
+udp4       0      0  *.netbios-dgm          *.*                               
+udp4       0      0  *.netbios-ns           *.*                               
+Active LOCAL (UNIX) domain sockets
+Address          Type   Recv-Q Send-Q            Inode             Conn             Refs          Nextref Addr
+78fccba0f4673f1d stream      0      0                0 78fccba0f467536d                0                0 /var/run/mDNSResponder
+78fccba0f467536d stream      0      0                0 78fccba0f4673f1d                0                0
+78fccba0f8527fe5 stream      0      0                0 78fccba0f46758e5                0                0 /var/run/mDNSResponder
+78fccba0f46758e5 stream      0      0                0 78fccba0f8527fe5                0                0
+78fccba0f03d30ad stream      0      0                0 78fccba0f46734f5                0                0 /var/run/mDNSResponder
+78fccba0f46734f5 stream      0      0                0 78fccba0f03d30ad                0                0
+78fccba0f03d48e5 stream      0      0                0 78fccba0ef3bb7b5                0                0 /var/run/mDNSResponder
+78fccba0ef3bb7b5 stream      0      0                0 78fccba0f03d48e5                0                0
+78fccba0ebb03cc5 stream      0      0                0 78fccba0f8529b3d                0                0 /var/run/mDNSResponder
+78fccba0f8529b3d stream      0      0                0 78fccba0ebb03cc5                0                0
+78fccba0f85298e5 stream      0      0                0 78fccba0f8529435                0                0
+78fccba0f8529435 stream      0      0                0 78fccba0f85298e5                0                0
+78fccba0f85280ad stream      0      0                0 78fccba0f4673d8d                0                0 /var/tmp/launchd/sock
+78fccba0f4673d8d stream      0      0                0 78fccba0f85280ad                0                0
+78fccba0f03d3b9d stream      0      0                0 78fccba0f4675b3d                0                0
+78fccba0f4675b3d stream      0      0                0 78fccba0f03d3b9d                0                0
+78fccba0f4674c65 stream      0      0                0 78fccba0f03d3ebd                0                0
+78fccba0f03d3ebd stream      0      0                0 78fccba0f4674c65                0                0
+78fccba0f03d4a75 stream      0      0                0 78fccba0eba74ccd                0                0
+78fccba0eba74ccd stream      0      0                0 78fccba0f03d4a75                0                0
+78fccba0f46740ad stream      0      0                0 78fccba0f8528d2d                0                0
+78fccba0f8528d2d stream      0      0                0 78fccba0f46740ad                0                0
+78fccba0ef3ba10d stream      0      0                0 78fccba0f46747b5                0                0
+78fccba0f46747b5 stream      0      0                0 78fccba0ef3ba10d                0                0
+78fccba0f8526ded stream      0      0                0 78fccba0ef3bc435                0                0
+78fccba0ef3bc435 stream      0      0                0 78fccba0f8526ded                0                0
+78fccba0ebb04b9d stream      0      0                0 78fccba0f8527bfd                0                0 /var/tmp/launchd/sock
+78fccba0f8527bfd stream      0      0                0 78fccba0ebb04b9d                0                0
+78fccba0f4674f85 stream      0      0                0 78fccba0edc46ded                0                0
+78fccba0edc46ded stream      0      0                0 78fccba0f4674f85                0                0
+78fccba0f8526f7d stream      0      0                0 78fccba0edc47b35                0                0
+78fccba0edc47b35 stream      0      0                0 78fccba0f8526f7d                0                0
+78fccba0edc483cd stream      0      0                0 78fccba0f8529ccd                0                0 /var/tmp/launchd/sock
+78fccba0f8529ccd stream      0      0                0 78fccba0edc483cd                0                0
+78fccba0f4672eb5 stream      0      0                0 78fccba0ebb055c5                0                0
+78fccba0ebb055c5 stream      0      0                0 78fccba0f4672eb5                0                0
+78fccba0f85274f5 stream      0      0                0 78fccba0f03d4115                0                0
+78fccba0f03d4115 stream      0      0                0 78fccba0f85274f5                0                0
+78fccba0f8527365 stream      0      0                0 78fccba0f8527a6d                0                0
+78fccba0f8527a6d stream      0      0                0 78fccba0f8527365                0                0
+78fccba0f4673b35 stream      0      0                0 78fccba0f03d4ccd                0                0
+78fccba0f03d4ccd stream      0      0                0 78fccba0f4673b35                0                0
+78fccba0edc49c05 stream      0      0                0 78fccba0f8527685                0                0
+78fccba0f8527685 stream      0      0                0 78fccba0edc49c05                0                0
+78fccba0ef3bae55 stream      0      0                0 78fccba0f85275bd                0                0
+78fccba0f85275bd stream      0      0                0 78fccba0ef3bae55                0                0
+78fccba0f852729d stream      0      0                0 78fccba0edc49b3d                0                0
+78fccba0edc49b3d stream      0      0                0 78fccba0f852729d                0                0
+78fccba0f46754fd stream      0      0                0 78fccba0f4673365                0                0
+78fccba0f4673365 stream      0      0                0 78fccba0f46754fd                0                0
+78fccba0f8528495 stream      0      0                0 78fccba0f03d4435                0                0
+78fccba0f03d4435 stream      0      0                0 78fccba0f8528495                0                0
+78fccba0f8528175 stream      0      0                0 78fccba0f03d36ed                0                0
+78fccba0f03d36ed stream      0      0                0 78fccba0f8528175                0                0
+78fccba0f467374d stream      0      0                0 78fccba0f467310d                0                0
+78fccba0f467310d stream      0      0                0 78fccba0f467374d                0                0
+78fccba0f4673e55 stream      0      0                0 78fccba0f852710d                0                0
+78fccba0f852710d stream      0      0                0 78fccba0f4673e55                0                0
+78fccba0f8526eb5 stream      0      0                0 78fccba0f4673045                0                0
+78fccba0f4673045 stream      0      0                0 78fccba0f8526eb5                0                0
+78fccba0f4675c05 stream      0      0                0 78fccba0f85279a5                0                0
+78fccba0f85279a5 stream      0      0                0 78fccba0f4675c05                0                0
+78fccba0ef3ba42d stream      0      0                0 78fccba0f03d3ad5                0                0
+78fccba0f03d3ad5 stream      0      0                0 78fccba0ef3ba42d                0                0
+78fccba0f4675435 stream      0      0                0 78fccba0f8529a75                0                0
+78fccba0f8529a75 stream      0      0                0 78fccba0f4675435                0                0
+78fccba0f85291dd stream      0      0                0 78fccba0f85299ad                0                0
+78fccba0f85299ad stream      0      0                0 78fccba0f85291dd                0                0
+78fccba0ef3bb945 stream      0      0                0 78fccba0ebb054fd                0                0
+78fccba0ebb054fd stream      0      0                0 78fccba0ef3bb945                0                0
+78fccba0f4674b9d stream      0      0                0 78fccba0f4673a6d                0                0
+78fccba0f4673a6d stream      0      0                0 78fccba0f4674b9d                0                0
+78fccba0ef3bb87d stream      0      0                0 78fccba0f03d2d8d                0                0
+78fccba0f03d2d8d stream      0      0                0 78fccba0ef3bb87d                0                0
+78fccba0eba725bd stream      0      0                0 78fccba0ef3bbd2d                0                0
+78fccba0ef3bbd2d stream      0      0                0 78fccba0eba725bd                0                0
+78fccba0ef3ba4f5 stream      0      0                0 78fccba0f852887d                0                0
+78fccba0f852887d stream      0      0                0 78fccba0ef3ba4f5                0                0
+78fccba0f03d2bfd stream      0      0                0 78fccba0ef3ba1d5                0                0
+78fccba0ef3ba1d5 stream      0      0                0 78fccba0f03d2bfd                0                0
+78fccba0ef3ba045 stream      0      0                0 78fccba0f03d3df5                0                0
+78fccba0f03d3df5 stream      0      0                0 78fccba0ef3ba045                0                0
+78fccba0f4675115 stream      0      0                0 78fccba0eba73ebd                0                0
+78fccba0eba73ebd stream      0      0                0 78fccba0f4675115                0                0
+78fccba0eb94e10d stream      0      0                0 78fccba0f4673685                0                0
+78fccba0f4673685 stream      0      0                0 78fccba0eb94e10d                0                0
+78fccba0f8527b35 stream      0      0                0 78fccba0edc491dd                0                0
+78fccba0edc491dd stream      0      0                0 78fccba0f8527b35                0                0
+78fccba0ebb058e5 stream      0      0                0 78fccba0eab0b365                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0eab0b365 stream      0      0                0 78fccba0ebb058e5                0                0
+78fccba0edc4710d stream      0      0                0 78fccba0edc46f7d                0                0 /var/run/mDNSResponder
+78fccba0edc46f7d stream      0      0                0 78fccba0edc4710d                0                0
+78fccba0f8528a0d stream      0      0                0 78fccba0f8529755                0                0
+78fccba0f8529755 stream      0      0                0 78fccba0f8528a0d                0                0
+78fccba0ebb05435 stream      0      0                0 78fccba0f4674ad5                0                0
+78fccba0f4674ad5 stream      0      0                0 78fccba0ebb05435                0                0
+78fccba0f46752a5 stream      0      0                0 78fccba0eba730ad                0                0
+78fccba0eba730ad stream      0      0                0 78fccba0f46752a5                0                0
+78fccba0f852936d stream      0      0                0 78fccba0f85278dd                0                0
+78fccba0f85278dd stream      0      0                0 78fccba0f852936d                0                0
+78fccba0f85286ed stream      0      0                0 78fccba0f4675ccd                0                0
+78fccba0f4675ccd stream     52      0                0 78fccba0f85286ed                0                0
+78fccba0ef3ba29d stream      0      0                0 78fccba0f467487d                0                0
+78fccba0f467487d stream     52      0                0 78fccba0ef3ba29d                0                0
+78fccba0f467504d stream      0      0                0 78fccba0edc49755                0                0 /var/run/mDNSResponder
+78fccba0edc49755 stream      0      0                0 78fccba0f467504d                0                0
+78fccba0f852968d stream      0      0                0 78fccba0f8528b9d                0                0
+78fccba0f8528b9d stream     52      0                0 78fccba0f852968d                0                0
+78fccba0f8529c05 stream      0      0                0 78fccba0ef3ba74d                0                0
+78fccba0ef3ba74d stream      0      0                0 78fccba0f8529c05                0                0
+78fccba0f8528f85 stream      0      0                0 78fccba0f852774d                0                0
+78fccba0f852774d stream      0      0                0 78fccba0f8528f85                0                0
+78fccba0ef3bb625 stream      0      0                0 78fccba0f4674625                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0f4674625 stream      0      0                0 78fccba0ef3bb625                0                0
+78fccba0eb94e045 stream      0      0                0 78fccba0eba7481d                0                0
+78fccba0eba7481d stream      0      0                0 78fccba0eb94e045                0                0
+78fccba0ef3bca75 stream      0      0                0 78fccba0eb9508e5                0                0
+78fccba0eb9508e5 stream      0      0                0 78fccba0ef3bca75                0                0
+78fccba0ef3bba0d stream      0      0                0 78fccba0ef3bbc65                0                0
+78fccba0ef3bbc65 stream      0      0                0 78fccba0ef3bba0d                0                0
+78fccba0f852904d stream      0      0                0 78fccba0ef3ba685                0                0
+78fccba0ef3ba685 stream      0      0                0 78fccba0f852904d                0                0
+78fccba0f85283cd stream      0      0                0 78fccba0f46731d5                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0f46731d5 stream      0      0                0 78fccba0f85283cd                0                0
+78fccba0eb94fd2d stream      0      0                0 78fccba0eb94f6ed                0                0
+78fccba0eb94f6ed stream      0      0                0 78fccba0eb94fd2d                0                0
+78fccba0ef3bc5c5 stream      0      0                0 78fccba0eab0b29d                0                0
+78fccba0eab0b29d stream      0      0                0 78fccba0ef3bc5c5                0                0
+78fccba0f8528305 stream      0      0                0 78fccba0eb94fb9d                0                0 /var/run/mDNSResponder
+78fccba0eb94fb9d stream      0      0                0 78fccba0f8528305                0                0
+78fccba0f467581d stream      0      0                0 78fccba0ef3bb3cd                0                0
+78fccba0ef3bb3cd stream      0      0                0 78fccba0f467581d                0                0
+78fccba0f467455d stream      0      0                0 78fccba0f4674d2d                0                0
+78fccba0f4674d2d stream      0      0                0 78fccba0f467455d                0                0
+78fccba0ef3baa6d stream      0      0                0 78fccba0edc4981d                0                0
+78fccba0edc4981d stream      0      0                0 78fccba0ef3baa6d                0                0
+78fccba0f8528625 stream      0      0                0 78fccba0eb94e685                0                0
+78fccba0eb94e685 stream      0      0                0 78fccba0f8528625                0                0
+78fccba0eba729a5 stream      0      0                0 78fccba0f852742d                0                0
+78fccba0f852742d stream      0      0                0 78fccba0eba729a5                0                0
+78fccba0edc47cc5 stream      0      0                0 78fccba0eb94e4f5                0                0
+78fccba0eb94e4f5 stream      0      0                0 78fccba0edc47cc5                0                0
+78fccba0edc48625 stream      0      0                0 78fccba0ebb0568d                0                0
+78fccba0ebb0568d stream      0      0                0 78fccba0edc48625                0                0
+78fccba0edc492a5 stream      0      0 78fccba0ef7b283d                0                0                0 /Users/Hephaestus/Library/Application Support/Google/Chrome/App Shim Socket
+78fccba0ebb05c05 stream      0      0                0 78fccba0ef3bb55d                0                0
+78fccba0ef3bb55d stream      0      0                0 78fccba0ebb05c05                0                0
+78fccba0f467329d stream      0      0                0 78fccba0f4672f7d                0                0
+78fccba0f4672f7d stream      0      0                0 78fccba0f467329d                0                0
+78fccba0eba72a6d stream      0      0                0 78fccba0ef3bcccd                0                0
+78fccba0ef3bcccd stream      0      0                0 78fccba0eba72a6d                0                0
+78fccba0f8527045 stream      0      0                0                0                0                0
+78fccba0f46746ed stream      0      0                0 78fccba0f4673cc5                0                0
+78fccba0f4673cc5 stream      0      0                0 78fccba0f46746ed                0                0
+78fccba0f4673bfd stream      0      0                0 78fccba0ef3bb495                0                0
+78fccba0ef3bb495 stream      0      0                0 78fccba0f4673bfd                0                0
+78fccba0eab0b10d stream      0      0                0 78fccba0f8528c65                0                0
+78fccba0f8528c65 stream      0      0                0 78fccba0eab0b10d                0                0
+78fccba0f8528945 stream      0      0                0 78fccba0eba73305                0                0
+78fccba0eba73305 stream      0      0                0 78fccba0f8528945                0                0
+78fccba0eab0b045 stream      0      0                0 78fccba0edc4729d                0                0
+78fccba0edc4729d stream      0      0                0 78fccba0eab0b045                0                0
+78fccba0f8528ebd stream      0      0                0 78fccba0eb94febd                0                0 /var/run/mDNSResponder
+78fccba0eb94febd stream      0      0                0 78fccba0f8528ebd                0                0
+78fccba0eb950c05 stream      0      0                0 78fccba0f85271d5                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0f85271d5 stream      0      0                0 78fccba0eb950c05                0                0
+78fccba0eba73d2d stream      0      0                0 78fccba0f8527f1d                0                0
+78fccba0f8527f1d stream      0      0                0 78fccba0eba73d2d                0                0
+78fccba0eba72685 stream      0      0                0 78fccba0f8527cc5                0                0
+78fccba0f8527cc5 stream      0      0                0 78fccba0eba72685                0                0
+78fccba0edc46eb5 stream      0      0                0 78fccba0ef3ba5bd                0                0
+78fccba0ef3ba5bd stream      0      0                0 78fccba0edc46eb5                0                0
+78fccba0edc49a75 stream      0      0                0 78fccba0eba7355d                0                0 /var/run/mDNSResponder
+78fccba0eba7355d stream      0      0                0 78fccba0edc49a75                0                0
+78fccba0f8527e55 stream      0      0                0 78fccba0eb94ee55                0                0
+78fccba0eb94ee55 stream      0      0                0 78fccba0f8527e55                0                0
+78fccba0f8527815 stream      0      0 78fccba0f70f874d                0                0                0 /tmp/launchd-2455.1SdGe1/sock
+78fccba0f8527d8d stream      0      0                0 78fccba0eba7323d                0                0
+78fccba0eba7323d stream      0      0                0 78fccba0f8527d8d                0                0
+78fccba0eb94fad5 stream      0      0                0 78fccba0eba728dd                0                0
+78fccba0eba728dd stream      0      0                0 78fccba0eb94fad5                0                0
+78fccba0f852855d stream      0      0                0 78fccba0f852823d                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0f852823d stream      0      0                0 78fccba0f852855d                0                0
+78fccba0f8528ad5 stream      0      0                0 78fccba0f8528df5                0                0
+78fccba0f8528df5 stream      0      0                0 78fccba0f8528ad5                0                0
+78fccba0ef3bb23d stream      0      0                0 78fccba0ef3bb305                0                0
+78fccba0ef3bb305 stream      0      0                0 78fccba0ef3bb23d                0                0
+78fccba0eba733cd stream      0      0                0 78fccba0ebb03f1d                0                0
+78fccba0ebb03f1d stream      0      0                0 78fccba0eba733cd                0                0
+78fccba0ef3b9f7d stream      0      0                0 78fccba0edc47bfd                0                0
+78fccba0edc47bfd stream      0      0                0 78fccba0ef3b9f7d                0                0
+78fccba0edc486ed stream      0      0                0 78fccba0ef3babfd                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0ef3babfd stream      0      0                0 78fccba0edc486ed                0                0
+78fccba0f85292a5 stream      0      0                0 78fccba0f8529115                0                0 /var/tmp/launchd/sock
+78fccba0f8529115 stream      0      0                0 78fccba0f85292a5                0                0
+78fccba0ef3b9ded stream      0      0                0 78fccba0ef3b9eb5                0                0
+78fccba0ef3b9eb5 stream      0      0                0 78fccba0ef3b9ded                0                0
+78fccba0ef3bc755 stream      0      0                0 78fccba0ebb02f7d                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0ebb02f7d stream      0      0                0 78fccba0ef3bc755                0                0
+78fccba0eab0cf85 stream      0      0                0 78fccba0eab0d04d                0                0
+78fccba0eab0d04d stream      0      0                0 78fccba0eab0cf85                0                0
+78fccba0edc47685 stream      0      0                0 78fccba0ef3bafe5                0                0
+78fccba0ef3bafe5 stream      0      0                0 78fccba0edc47685                0                0
+78fccba0eba745c5 stream      0      0                0 78fccba0eb94efe5                0                0
+78fccba0eb94efe5 stream      0      0                0 78fccba0eba745c5                0                0
+78fccba0ef3bcc05 stream      0      0                0 78fccba0eba72b35                0                0
+78fccba0eba72b35 stream      0      0                0 78fccba0ef3bcc05                0                0
+78fccba0ef3bb175 stream      0      0                0 78fccba0ef3bad8d                0                0
+78fccba0ef3bad8d stream      0      0                0 78fccba0ef3bb175                0                0
+78fccba0ef3bb0ad stream      0      0 78fccba0ef839edd                0                0                0 /tmp/launchd-422.b2nV4W/sock
+78fccba0ef3bacc5 stream      0      0                0 78fccba0eb94e365                0                0
+78fccba0eb94e365 stream      0      0                0 78fccba0ef3bacc5                0                0
+78fccba0edc471d5 stream      0      0                0 78fccba0ef3bab35                0                0
+78fccba0ef3bab35 stream      0      0                0 78fccba0edc471d5                0                0
+78fccba0ef3bbdf5 stream      0      0                0 78fccba0ef3ba9a5                0                0
+78fccba0ef3ba9a5 stream      0      0                0 78fccba0ef3bbdf5                0                0
+78fccba0ef3bbf85 stream      0      0                0 78fccba0ef3bc115                0                0
+78fccba0ef3bc115 stream      0      0                0 78fccba0ef3bbf85                0                0
+78fccba0ebb0374d stream      0      0                0 78fccba0ebb03685                0                0
+78fccba0ebb03685 stream      0      0                0 78fccba0ebb0374d                0                0
+78fccba0edc4823d stream      0      0                0 78fccba0edc4774d                0                0
+78fccba0edc4774d stream      0      0                0 78fccba0edc4823d                0                0
+78fccba0ef3bc36d stream      0      0                0 78fccba0ef3bc04d                0                0 /var/run/usbmuxd
+78fccba0ef3bc04d stream      0      0                0 78fccba0ef3bc36d                0                0
+78fccba0ef3bcb3d stream      0      0                0 78fccba0ef3bbebd                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0ef3bbebd stream      0      0                0 78fccba0ef3bcb3d                0                0
+78fccba0ef3bc81d stream      0      0                0 78fccba0ef3bc8e5                0                0
+78fccba0ef3bc8e5 stream      0      0                0 78fccba0ef3bc81d                0                0
+78fccba0edc47d8d stream      0      0                0 78fccba0edc47e55                0                0
+78fccba0edc47e55 stream      0      0                0 78fccba0edc47d8d                0                0
+78fccba0edc478dd stream      0      0                0 78fccba0edc47815                0                0
+78fccba0edc47815 stream      0      0                0 78fccba0edc478dd                0                0
+78fccba0eba721d5 stream      0      0                0 78fccba0eba724f5                0                0
+78fccba0eba724f5 stream      0      0                0 78fccba0eba721d5                0                0
+78fccba0eba74b3d stream      0      0                0 78fccba0eba74c05                0                0
+78fccba0eba74c05 stream      0      0                0 78fccba0eba74b3d                0                0
+78fccba0eb94f0ad stream      0      0                0 78fccba0eb94f55d                0                0
+78fccba0eb94f55d stream      0      0                0 78fccba0eb94f0ad                0                0
+78fccba0edc47365 stream      0      0                0 78fccba0edc4742d                0                0
+78fccba0edc4742d stream      0      0                0 78fccba0edc47365                0                0
+78fccba0edc479a5 stream      0      0                0 78fccba0edc47a6d                0                0
+78fccba0edc47a6d stream      0      0                0 78fccba0edc479a5                0                0
+78fccba0edc47fe5 stream      0      0                0 78fccba0edc47f1d                0                0 /var/run/mDNSResponder
+78fccba0edc47f1d stream      0      0                0 78fccba0edc47fe5                0                0
+78fccba0edc480ad stream      0      0                0 78fccba0edc48175                0                0
+78fccba0edc48175 stream      0      0                0 78fccba0edc480ad                0                0
+78fccba0edc48495 stream      0      0                0 78fccba0edc4855d                0                0
+78fccba0edc4855d stream      0      0                0 78fccba0edc48495                0                0
+78fccba0edc487b5 stream      0      0 78fccba0ee3ed65d                0                0                0 /var/folders/1c/vkhvbnys3sv1c8dqfm71tfm00000gn/T/icssuis501
+78fccba0edc48945 stream      0      0                0 78fccba0edc4887d                0                0
+78fccba0edc4887d stream      0      0                0 78fccba0edc48945                0                0
+78fccba0edc48c65 stream      0      0                0 78fccba0edc48b9d                0                0
+78fccba0edc48b9d stream      0      0                0 78fccba0edc48c65                0                0
+78fccba0edc48df5 stream      0      0                0 78fccba0edc48d2d                0                0
+78fccba0edc48d2d stream      0      0                0 78fccba0edc48df5                0                0
+78fccba0edc48f85 stream      0      0                0 78fccba0edc48ebd                0                0
+78fccba0edc48ebd stream      0      0                0 78fccba0edc48f85                0                0
+78fccba0edc49115 stream      0      0                0 78fccba0edc4904d                0                0
+78fccba0edc4904d stream      0      0                0 78fccba0edc49115                0                0
+78fccba0edc49435 stream      0      0                0 78fccba0edc4936d                0                0
+78fccba0edc4936d stream      0      0                0 78fccba0edc49435                0                0
+78fccba0edc494fd stream      0      0                0 78fccba0edc495c5                0                0
+78fccba0edc495c5 stream      0      0                0 78fccba0edc494fd                0                0
+78fccba0edc499ad stream      0      0                0 78fccba0edc4968d                0                0 /var/run/mDNSResponder
+78fccba0edc4968d stream      0      0                0 78fccba0edc499ad                0                0
+78fccba0ebb04f85 stream      0      0                0 78fccba0ebb04ebd                0                0
+78fccba0ebb04ebd stream      0      0                0 78fccba0ebb04f85                0                0
+78fccba0ebb04ad5 stream      0      0                0 78fccba0ebb04c65                0                0
+78fccba0ebb04c65 stream      0      0                0 78fccba0ebb04ad5                0                0
+78fccba0ebb04945 stream      0      0                0 78fccba0ebb0487d                0                0
+78fccba0ebb0487d stream      0      0                0 78fccba0ebb04945                0                0
+78fccba0eba7274d stream      0      0                0 78fccba0eb950115                0                0
+78fccba0eb950115 stream      0      0                0 78fccba0eba7274d                0                0
+78fccba0ebb02ded stream      0      0                0 78fccba0edc49ccd                0                0
+78fccba0edc49ccd stream      0      0                0 78fccba0ebb02ded                0                0
+78fccba0eba7229d stream      0      0                0 78fccba0eba72365                0                0
+78fccba0eba72365 stream      0      0                0 78fccba0eba7229d                0                0
+78fccba0ebb03045 stream      0      0                0 78fccba0ebb0310d                0                0
+78fccba0ebb0310d stream      0      0                0 78fccba0ebb03045                0                0
+78fccba0ebb0329d stream      0      0                0 78fccba0ebb031d5                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0ebb031d5 stream      0      0                0 78fccba0ebb0329d                0                0
+78fccba0ebb0342d stream      0      0                0 78fccba0ebb03365                0                0
+78fccba0ebb03365 stream      0      0                0 78fccba0ebb0342d                0                0
+78fccba0ebb034f5 stream      0      0                0 78fccba0ebb035bd                0                0
+78fccba0ebb035bd stream      0      0                0 78fccba0ebb034f5                0                0
+78fccba0ebb03815 stream      0      0                0 78fccba0ebb038dd                0                0 /var/run/mDNSResponder
+78fccba0ebb038dd stream      0      0                0 78fccba0ebb03815                0                0
+78fccba0ebb03a6d stream      0      0                0 78fccba0ebb039a5                0                0 /var/run/mDNSResponder
+78fccba0ebb039a5 stream      0      0                0 78fccba0ebb03a6d                0                0
+78fccba0ebb03bfd stream      0      0                0 78fccba0ebb03b35                0                0
+78fccba0ebb03b35 stream      0      0                0 78fccba0ebb03bfd                0                0
+78fccba0ebb03e55 stream      0      0                0 78fccba0ebb03fe5                0                0
+78fccba0ebb03fe5 stream      0      0                0 78fccba0ebb03e55                0                0
+78fccba0ebb04305 stream      0      0                0 78fccba0ebb040ad                0                0
+78fccba0ebb040ad stream      0      0                0 78fccba0ebb04305                0                0
+78fccba0ebb04175 stream      0      0                0 78fccba0ebb0423d                0                0
+78fccba0ebb0423d stream      0      0                0 78fccba0ebb04175                0                0
+78fccba0ebb043cd stream      0      0                0 78fccba0ebb04495                0                0
+78fccba0ebb04495 stream      0      0                0 78fccba0ebb043cd                0                0
+78fccba0ebb04625 stream      0      0                0 78fccba0ebb0455d                0                0
+78fccba0ebb0455d stream      0      0                0 78fccba0ebb04625                0                0
+78fccba0ebb047b5 stream      0      0                0 78fccba0ebb046ed                0                0
+78fccba0ebb046ed stream      0      0                0 78fccba0ebb047b5                0                0
+78fccba0ebb04d2d stream      0      0                0 78fccba0ebb04df5                0                0 /var/run/mDNSResponder
+78fccba0ebb04df5 stream      0      0                0 78fccba0ebb04d2d                0                0
+78fccba0ebb05115 stream      0      0                0 78fccba0ebb0504d                0                0
+78fccba0ebb0504d stream      0      0                0 78fccba0ebb05115                0                0
+78fccba0eba74a75 stream      0      0                0 78fccba0eba73df5                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0eba73df5 stream      0      0                0 78fccba0eba74a75                0                0
+78fccba0ebb051dd stream      0      0                0 78fccba0eba73625                0                0
+78fccba0eba73625 stream      0      0                0 78fccba0ebb051dd                0                0
+78fccba0eba73175 stream      0      0                0 78fccba0eb94ef1d                0                0 /var/run/mDNSResponder
+78fccba0eb94ef1d stream      0      0                0 78fccba0eba73175                0                0
+78fccba0eb94fa0d stream      0      0                0 78fccba0eb94f87d                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0eb94f87d stream      0      0                0 78fccba0eb94fa0d                0                0
+78fccba0eba72045 stream      0      0                0 78fccba0eb9501dd                0                0
+78fccba0eb9501dd stream      0      0                0 78fccba0eba72045                0                0
+78fccba0eb94eb35 stream      0      0                0 78fccba0eb94ebfd                0                0
+78fccba0eb94ebfd stream      0      0                0 78fccba0eb94eb35                0                0
+78fccba0ebb05ccd stream      0      0                0 78fccba0eba748e5                0                0
+78fccba0eba748e5 stream      0      0                0 78fccba0ebb05ccd                0                0
+78fccba0eb94e8dd stream      0      0                0 78fccba0eb94e74d                0                0
+78fccba0eb94e74d stream      0      0                0 78fccba0eb94e8dd                0                0
+78fccba0eb94e5bd stream      0      0 78fccba0ed52492d                0                0                0 /tmp/launch-SBV7jC/Listeners
+78fccba0eb94ea6d stream      0      0 78fccba0ed524b0d                0                0                0 /tmp/launch-nzITHq/Render
+78fccba0eba74755 stream      0      0 78fccba0ed524ced                0                0                0 /var/tmp/filesystemui.socket
+78fccba0eba73f85 stream      0      0 78fccba0ed516ded                0                0                0 /tmp/launch-DXSnRZ/org.macosforge.xquartz:0
+78fccba0eb94e42d stream      0      0                0 78fccba0eb94dded                0                0
+78fccba0eb94dded stream      0      0                0 78fccba0eb94e42d                0                0
+78fccba0eba742a5 stream      0      0 78fccba0ed517bfd                0                0                0 /tmp/launchd-257.kS9nsN/sock
+78fccba0ebb052a5 stream      0      0                0 78fccba0ebb0536d                0                0
+78fccba0ebb0536d stream      0      0                0 78fccba0ebb052a5                0                0
+78fccba0eba737b5 stream      0      0                0 78fccba0eba73945                0                0
+78fccba0eba73945 stream      0      0                0 78fccba0eba737b5                0                0
+78fccba0eb95081d stream      0      0                0 78fccba0eb950435                0                0
+78fccba0eb950435 stream      0      0                0 78fccba0eb95081d                0                0
+78fccba0eb94f945 stream      0      0                0 78fccba0eb94f7b5                0                0
+78fccba0eb94f7b5 stream      0      0                0 78fccba0eb94f945                0                0
+78fccba0eb94e9a5 stream      0      0                0 78fccba0eba7242d                0                0
+78fccba0eba7242d stream      0      0                0 78fccba0eb94e9a5                0                0
+78fccba0eba7468d stream      0      0                0 78fccba0eba741dd                0                0
+78fccba0eba741dd stream      0      0                0 78fccba0eba7468d                0                0
+78fccba0eb94e815 stream      0      0                0 78fccba0eb94f175                0                0
+78fccba0eb94f175 stream      0      0                0 78fccba0eb94e815                0                0
+78fccba0eba749ad stream      0      0                0 78fccba0eba744fd                0                0 /var/run/mDNSResponder
+78fccba0eba744fd stream      0      0                0 78fccba0eba749ad                0                0
+78fccba0eb94fdf5 stream      0      0                0 78fccba0eb94f625                0                0
+78fccba0eb94f625 stream      0      0                0 78fccba0eb94fdf5                0                0
+78fccba0ebb05755 stream      0      0                0 78fccba0ebb0581d                0                0
+78fccba0ebb0581d stream      0      0                0 78fccba0ebb05755                0                0
+78fccba0ebb05a75 stream      0      0                0 78fccba0ebb05b3d                0                0
+78fccba0ebb05b3d stream      0      0                0 78fccba0ebb05a75                0                0
+78fccba0eba71ded stream      0      0                0 78fccba0eba71eb5                0                0
+78fccba0eba71eb5 stream      0      0                0 78fccba0eba71ded                0                0
+78fccba0eba72bfd stream      0      0                0 78fccba0eba72cc5                0                0
+78fccba0eba72cc5 stream      0      0                0 78fccba0eba72bfd                0                0
+78fccba0eba72f1d stream      0      0                0 78fccba0eba72fe5                0                0
+78fccba0eba72fe5 stream      0      0                0 78fccba0eba72f1d                0                0
+78fccba0eba73a0d stream      0      0                0 78fccba0eba73ad5                0                0
+78fccba0eba73ad5 stream      0      0                0 78fccba0eba73a0d                0                0
+78fccba0eba7404d stream      0      0                0 78fccba0eba74115                0                0
+78fccba0eba74115 stream      0      0                0 78fccba0eba7404d                0                0
+78fccba0eba7436d stream      0      0                0 78fccba0eba74435                0                0
+78fccba0eba74435 stream      0      0                0 78fccba0eba7436d                0                0
+78fccba0eb94deb5 stream      0      0                0 78fccba0eb94df7d                0                0
+78fccba0eb94df7d stream      0      0                0 78fccba0eb94deb5                0                0
+78fccba0eb94e1d5 stream      0      0                0 78fccba0eb94e29d                0                0
+78fccba0eb94e29d stream      0      0                0 78fccba0eb94e1d5                0                0
+78fccba0eb94ecc5 stream      0      0                0 78fccba0eb94ed8d                0                0
+78fccba0eb94ed8d stream      0      0                0 78fccba0eb94ecc5                0                0
+78fccba0eb94f305 stream      0      0                0 78fccba0eb94f3cd                0                0
+78fccba0eb94f3cd stream      0      0                0 78fccba0eb94f305                0                0
+78fccba0eb94ff85 stream      0      0                0 78fccba0eb95004d                0                0
+78fccba0eb95004d stream      0      0                0 78fccba0eb94ff85                0                0
+78fccba0eb9502a5 stream      0      0                0 78fccba0eb95036d                0                0
+78fccba0eb95036d stream      0      0                0 78fccba0eb9502a5                0                0
+78fccba0eb9505c5 stream      0      0                0 78fccba0eb95068d                0                0
+78fccba0eb95068d stream      0      0                0 78fccba0eb9505c5                0                0
+78fccba0eb9509ad stream      0      0                0 78fccba0eb950ccd                0                0
+78fccba0eb950ccd stream      0      0                0 78fccba0eb9509ad                0                0
+78fccba0eb950a75 stream      0      0                0 78fccba0eb950b3d                0                0
+78fccba0eb950b3d stream      0      0                0 78fccba0eb950a75                0                0
+78fccba0eab0aded stream      0      0                0 78fccba0eab0aeb5                0                0
+78fccba0eab0aeb5 stream      0      0                0 78fccba0eab0aded                0                0
+78fccba0eab0b4f5 stream      0      0                0 78fccba0eab0b42d                0                0
+78fccba0eab0b42d stream      0      0                0 78fccba0eab0b4f5                0                0
+78fccba0eab0b5bd stream      0      0                0 78fccba0eab0b74d                0                0
+78fccba0eab0b74d stream      0      0                0 78fccba0eab0b5bd                0                0
+78fccba0eab0b685 stream      0      0 78fccba0eb42ca1d                0                0                0 /var/run/pppconfd
+78fccba0eab0b815 stream      0      0                0 78fccba0eab0b9a5                0                0
+78fccba0eab0b9a5 stream      0      0                0 78fccba0eab0b815                0                0
+78fccba0eab0be55 stream      0      0                0 78fccba0eab0bf1d                0                0
+78fccba0eab0bf1d stream      0      0                0 78fccba0eab0be55                0                0
+78fccba0eab0ba6d stream      0      0                0 78fccba0eab0bbfd                0                0
+78fccba0eab0bbfd stream      0      0                0 78fccba0eab0ba6d                0                0
+78fccba0eab0bd8d stream      0      0                0 78fccba0eab0bcc5                0                0
+78fccba0eab0bcc5 stream      0      0                0 78fccba0eab0bd8d                0                0
+78fccba0eab0c0ad stream      0      0                0 78fccba0eab0bfe5                0                0 /var/tmp/launchd/sock
+78fccba0eab0bfe5 stream      0      0                0 78fccba0eab0c0ad                0                0
+78fccba0eab0c23d stream      0      0                0 78fccba0eab0c175                0                0
+78fccba0eab0c175 stream      0      0                0 78fccba0eab0c23d                0                0
+78fccba0eab0c3cd stream      0      0                0 78fccba0eab0c305                0                0
+78fccba0eab0c305 stream      0      0                0 78fccba0eab0c3cd                0                0
+78fccba0eab0c55d stream      0      0                0 78fccba0eab0c495                0                0
+78fccba0eab0c495 stream      0      0                0 78fccba0eab0c55d                0                0
+78fccba0eab0c625 stream      0      0                0 78fccba0eab0c7b5                0                0
+78fccba0eab0c7b5 stream      0      0                0 78fccba0eab0c625                0                0
+78fccba0eab0c945 stream      0      0                0 78fccba0eab0c6ed                0                0 /var/tmp/launchd/sock
+78fccba0eab0c6ed stream      0      0                0 78fccba0eab0c945                0                0
+78fccba0eab0c87d stream      0      0                0 78fccba0eab0ca0d                0                0
+78fccba0eab0ca0d stream      0      0                0 78fccba0eab0c87d                0                0
+78fccba0eab0cb9d stream      0      0                0 78fccba0eab0cebd                0                0
+78fccba0eab0cebd stream      0      0                0 78fccba0eab0cb9d                0                0
+78fccba0eab0cdf5 stream      0      0                0 78fccba0eab0cad5                0                0
+78fccba0eab0cad5 stream      0      0                0 78fccba0eab0cdf5                0                0
+78fccba0eab0cc65 stream      0      0                0 78fccba0eab0cd2d                0                0
+78fccba0eab0cd2d stream      0      0                0 78fccba0eab0cc65                0                0
+78fccba0eab0d115 stream      0      0 78fccba0eafdaa1d                0                0                0 /var/tmp/launchd/sock
+78fccba0eab0d1dd stream      0      0 78fccba0eafdabfd                0                0                0 /private/var/run/cupsd
+78fccba0eab0d2a5 stream      0      0 78fccba0eafdaced                0                0                0 /var/run/usbmuxd
+78fccba0eab0d36d stream      0      0 78fccba0eafceded                0                0                0 /var/run/systemkeychaincheck.socket
+78fccba0eab0d4fd stream      0      0 78fccba0eafcefcd                0                0                0 /var/run/portmap.socket
+78fccba0eab0d5c5 stream      0      0 78fccba0eafcf0bd                0                0                0 /var/run/vpncontrol.sock
+78fccba0eab0d68d stream      0      0 78fccba0eafcf38d                0                0                0 /var/rpc/ncalrpc/wkssvc
+78fccba0eab0d755 stream      0      0 78fccba0eafcf47d                0                0                0 /var/rpc/ncacn_np/wkssvc
+78fccba0eab0d81d stream      0      0 78fccba0eafcf56d                0                0                0 /var/rpc/ncalrpc/srvsvc
+78fccba0eab0d8e5 stream      0      0 78fccba0eafcf65d                0                0                0 /var/rpc/ncacn_np/srvsvc
+78fccba0eab0d9ad stream      0      0 78fccba0eafcf74d                0                0                0 /var/rpc/ncalrpc/NETLOGON
+78fccba0eab0da75 stream      0      0 78fccba0eafcf83d                0                0                0 /var/rpc/ncacn_np/mdssvc
+78fccba0eab0db3d stream      0      0 78fccba0eafcf92d                0                0                0 /var/rpc/ncalrpc/lsarpc
+78fccba0eab0dccd stream      0      0 78fccba0eafcfb0d                0                0                0 /var/rpc/ncacn_np/lsarpc
+78fccba0eab0dc05 stream      0      0 78fccba0eafb9ded                0                0                0 /var/run/mDNSResponder
+78fccba0f03d3f85 dgram       0      0                0 78fccba0ef3ba365 78fccba0ef3ba365                0
+78fccba0ef3ba365 dgram       0      0                0 78fccba0f03d3f85 78fccba0f03d3f85                0
+78fccba0f03d3625 dgram       0      0                0 78fccba0f46743cd 78fccba0f46743cd                0
+78fccba0f46743cd dgram       0      0                0 78fccba0f03d3625 78fccba0f03d3625                0
+78fccba0f46751dd dgram       0      0                0 78fccba0f4672ded 78fccba0f4672ded                0
+78fccba0f4672ded dgram       0      0                0 78fccba0f46751dd 78fccba0f46751dd                0
+78fccba0eb950755 dgram       0      0                0 78fccba0edc498e5 78fccba0edc498e5                0
+78fccba0edc498e5 dgram       0      0                0 78fccba0eb950755 78fccba0eb950755                0
+78fccba0eb94f495 dgram       0      0                0 78fccba0f4674ebd 78fccba0f4674ebd                0
+78fccba0f4674ebd dgram       0      0                0 78fccba0eb94f495 78fccba0eb94f495                0
+78fccba0f852981d dgram       0      0                0 78fccba0eba736ed 78fccba0eba736ed                0
+78fccba0eba736ed dgram       0      0                0 78fccba0f852981d 78fccba0f852981d                0
+78fccba0ef3bc4fd dgram       0      0                0 78fccba0f85294fd 78fccba0f85294fd                0
+78fccba0f85294fd dgram       0      0                0 78fccba0ef3bc4fd 78fccba0ef3bc4fd                0
+78fccba0ebb04a0d dgram       0      0                0 78fccba0eba72d8d 78fccba0eba72d8d                0
+78fccba0eba72d8d dgram       0      0                0 78fccba0ebb04a0d 78fccba0ebb04a0d                0
+78fccba0ef3bc1dd dgram       0      0                0 78fccba0ef3ba8dd 78fccba0ef3ba8dd                0
+78fccba0ef3ba8dd dgram       0      0                0 78fccba0ef3bc1dd 78fccba0ef3bc1dd                0
+78fccba0ef3bc2a5 dgram       0      0                0 78fccba0ebb03d8d 78fccba0ebb03d8d                0
+78fccba0ebb03d8d dgram       0      0                0 78fccba0ef3bc2a5 78fccba0ef3bc2a5                0
+78fccba0edc47045 dgram       0      0                0 78fccba0edc475bd 78fccba0edc475bd                0
+78fccba0edc475bd dgram       0      0                0 78fccba0edc47045 78fccba0edc47045                0
+78fccba0eab0b1d5 dgram       0      0                0 78fccba0eab0af7d 78fccba0eab0af7d                0
+78fccba0eab0af7d dgram       0      0                0 78fccba0eab0b1d5 78fccba0eab0b1d5                0
+78fccba0ef3bbb9d dgram       0      0                0 78fccba0ef3bbad5 78fccba0ef3bbad5                0
+78fccba0ef3bbad5 dgram       0      0                0 78fccba0ef3bbb9d 78fccba0ef3bbb9d                0
+78fccba0edc48a0d dgram       0      0                0 78fccba0edc48ad5 78fccba0edc48ad5                0
+78fccba0edc48ad5 dgram       0      0                0 78fccba0edc48a0d 78fccba0edc48a0d                0
+78fccba0eba72e55 dgram       0      0                0 78fccba0edc474f5 78fccba0edc474f5                0
+78fccba0edc474f5 dgram       0      0                0 78fccba0eba72e55 78fccba0eba72e55                0
+78fccba0eba72815 dgram       0      0                0 78fccba0eba73495 78fccba0eba73495                0
+78fccba0eba73495 dgram       0      0                0 78fccba0eba72815 78fccba0eba72815                0
+78fccba0ef3baf1d dgram       0      0                0 78fccba0eab0d435                0 78fccba0edc48305
+78fccba0ef3bc9ad dgram       0      0                0 78fccba0ef3bc68d 78fccba0ef3bc68d                0
+78fccba0ef3bc68d dgram       0      0                0 78fccba0ef3bc9ad 78fccba0ef3bc9ad                0
+78fccba0edc48305 dgram       0      0                0 78fccba0eab0d435                0                0
+78fccba0eba73c65 dgram       0      0                0 78fccba0eb94f23d 78fccba0eb94f23d                0
+78fccba0eb94f23d dgram       0      0                0 78fccba0eba73c65 78fccba0eba73c65                0
+78fccba0ebb059ad dgram       0      0                0 78fccba0eb94fc65 78fccba0eb94fc65                0
+78fccba0eb94fc65 dgram       0      0                0 78fccba0ebb059ad 78fccba0ebb059ad                0
+78fccba0eba7387d dgram       0      0                0 78fccba0eba73b9d 78fccba0eba73b9d                0
+78fccba0eba73b9d dgram       0      0                0 78fccba0eba7387d 78fccba0eba7387d                0
+78fccba0eba71f7d dgram       0      0                0 78fccba0eba7210d 78fccba0eba7210d                0
+78fccba0eba7210d dgram       0      0                0 78fccba0eba71f7d 78fccba0eba71f7d                0
+78fccba0eab0bb35 dgram       0      0                0 78fccba0eab0b8dd 78fccba0eab0b8dd                0
+78fccba0eab0b8dd dgram       0      0                0 78fccba0eab0bb35 78fccba0eab0bb35                0
+78fccba0eab0d435 dgram       0      0 78fccba0eafceedd                0 78fccba0ef3baf1d                0 /var/run/syslog

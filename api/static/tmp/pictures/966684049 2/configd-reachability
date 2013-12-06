@@ -1,0 +1,166 @@
+Clients :
+
+  connection = 0x7fcb52415cf0, client = 0x7fcb52415980, command = scutil, pid = 8757
+
+  connection = 0x7fcb52415ed0, client = 0x7fcb5241f3c0, command = ocspd, pid = 8628
+    target(c) = 0x7ff242e02b40, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52416ff0, client = 0x7fcb52413520, command = ubd, pid = 299
+    target(c) = 0x7fa5e8429ea0, target(s) = <SCNetworkReachability 0x7fcb5270fbd0 [0x7fff74d08eb0]> {address = 127.0.0.1, dark wake notify, flags = 0x00010002, if_index = 1}
+    target(c) = 0x7fa5e8643130, target(s) = <SCNetworkReachability 0x7fcb5252db30 [0x7fff74d08eb0]> {name = apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb524192c0, client = 0x7fcb524197f0, command = apsd, pid = 82
+    target(c) = 0x7fa390c231e0, target(s) = <SCNetworkReachability 0x7fcb5270fbd0 [0x7fff74d08eb0]> {address = 127.0.0.1, dark wake notify, flags = 0x00010002, if_index = 1}
+    target(c) = 0x7fa390d33f90, target(s) = <SCNetworkReachability 0x7fcb52415480 [0x7fff74d08eb0]> {name = 1-courier.sandbox.push.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    target(c) = 0x7fa390e0bcf0, target(s) = <SCNetworkReachability 0x7fcb52617720 [0x7fff74d08eb0]> {name = 1-courier.push.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb52419e20, client = 0x7fcb5241a120, command = locationd, pid = 68
+    target(c) = 0x7fecb8e06050, target(s) = <SCNetworkReachability 0x7fcb5270d9f0 [0x7fff74d08eb0]> {address = 0.0.0.0, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb5241e750, client = 0x7fcb5241e700, command = identityservicesd, pid = 317
+    target(c) = 0x7fee1b609a60, target(s) = <SCNetworkReachability 0x7fcb52714450 [0x7fff74d08eb0]> {address = 0.0.0.0, dark wake notify, flags = 0x00000007, if_index = 0}
+    target(c) = 0x7fee1b622e30, target(s) = <SCNetworkReachability 0x7fcb52714450 [0x7fff74d08eb0]> {address = 0.0.0.0, dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb5241f590, client = 0x7fcb5241be30, command = softwareupdated, pid = 416
+    target(c) = 0x7fc200455420, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb5252d960, client = 0x7fcb52524770, command = PhotoStreamAgent, pid = 381
+    target(c) = 0x7fa6bb63fae0, target(s) = <SCNetworkReachability 0x7fcb5270fbd0 [0x7fff74d08eb0]> {address = 127.0.0.1, dark wake notify, flags = 0x00010002, if_index = 1}
+    target(c) = 0x7fa6bb43a070, target(s) = <SCNetworkReachability 0x7fcb52716f40 [0x7fff74d08eb0]> {name = p05-streams.icloud.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb5252e280, client = 0x7fcb5252e4c0, command = CalendarAgent, pid = 312
+    target(c) = 0x7ff443e26d10, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb525339c0, client = 0x7fcb5252f710, command = DashboardClient, pid = 1172
+    target(c) = 0x7ff6d04640f0, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52616dd0, client = 0x7fcb52626a00, command = com.apple.iCloudHelper, pid = 8630
+    target(c) = 0x7fdcf8d2c490, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52617d40, client = 0x7fcb52601df0, command = UserEventAgent, pid = 261
+    target(c) = 0x7fb23ae488d0, target(s) = <SCNetworkReachability 0x7fcb5270d9f0 [0x7fff74d08eb0]> {address = 0.0.0.0, flags = 0x00000007, if_index = 0}
+    target(c) = 0x7fb23ac30670, target(s) = <SCNetworkReachability 0x7fcb5252c010 [0x7fff74d08eb0]> {name = www.apple.com (nodename nor servname provided, or not known), [46], flags = 0x00000007, if_index = 0}
+    target(c) = 0x7fb23ad0c7e0, target(s) = <SCNetworkReachability 0x7fcb52712f30 [0x7fff74d08eb0]> {name = radarsubmissions.apple.com (17.254.2.214), [46]}
+    target(c) = 0x7fb23ad128c0, target(s) = <SCNetworkReachability 0x7fcb52712f30 [0x7fff74d08eb0]> {name = radarsubmissions.apple.com (17.254.2.214), [46]}
+
+  connection = 0x7fcb5261a480, client = 0x7fcb52616a30, command = airportd, pid = 84
+    target(c) = 0x7fb88b403090, target(s) = <SCNetworkReachability 0x7fcb524199d0 [0x7fff74d08eb0]> {name = www.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb5261caa0, client = 0x7fcb52621560, command = storeagent, pid = 402
+    target(c) = 0x7f98f14398e0, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb5261f490, client = 0x7fcb52620520, command = mDNSResponder, pid = 63
+    target(c) = 0x7f84c341af50, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52622220, client = 0x7fcb5261c580, command = gamed, pid = 399
+    target(c) = 0x7fc1b3e76d80, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52622510, client = 0x7fcb52622b00, command = SystemUIServer, pid = 284
+    target(c) = 0x7fa5895767b0, target(s) = <SCNetworkReachability 0x7fcb5252c010 [0x7fff74d08eb0]> {name = www.apple.com (nodename nor servname provided, or not known), [46], flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb52627b90, client = 0x7fcb52623b80, command = com.apple.lookupd, pid = 4358
+    target(c) = 0x7fd99842c420, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb5270d160, client = 0x7fcb5270d3d0, command = UserEventAgent, pid = 11
+    target(c) = 0x7fec89d0a2e0, target(s) = <SCNetworkReachability 0x7fcb5270d9f0 [0x7fff74d08eb0]> {address = 0.0.0.0, flags = 0x00000007, if_index = 0}
+    target(c) = 0x7fec89d3dad0, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb5270ef80, client = 0x7fcb5270f0c0, command = imagent, pid = 315
+    target(c) = 0x7fe61ac12620, target(s) = <SCNetworkReachability 0x7fcb52714450 [0x7fff74d08eb0]> {address = 0.0.0.0, dark wake notify, flags = 0x00000007, if_index = 0}
+
+  connection = 0x7fcb52711c80, client = 0x7fcb52711850, command = aosnotifyd, pid = 83
+    target(c) = 0x7fe96040dd20, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb52719eb0, client = 0x7fcb52716540, command = Google Chrome, pid = 7312
+    target(c) = 0x7866f9f0, target(s) = <SCNetworkReachability 0x7fcb5270d9f0 [0x7fff74d08eb0]> {address = 0.0.0.0, flags = 0x00000007, if_index = 0}
+    target(c) = 0x82857ae0, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+  connection = 0x7fcb5271eec0, client = 0x7fcb52719b80, command = Finder, pid = 285
+    target(c) = 0x7f942ae05e60, target(s) = <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+
+Digests :
+
+  digest : <data> 0xc74b01e34498b2f1d958658ce30be2cfbe3350b2
+    <SCNetworkReachability 0x7fcb52617720 [0x7fff74d08eb0]> {name = 1-courier.push.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 1, sync queries = 0, refs = 1
+    network 1383579054.509, power 1383578396.579, DNS 1383579054.510 (query 1383579054.514 / reply 0.011), last notify 1383579054.510
+      connection = 0x7fcb524192c0, target(c) = 0x7fa390e0bcf0, command = apsd, pid = 82, changes = 0
+
+  digest : <data> 0x4e116b40ad181ac4c6fa1af862a518379822e58d
+    <SCNetworkReachability 0x7fcb52714450 [0x7fff74d08eb0]> {address = 0.0.0.0, dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 3, sync queries = 0, refs = 3
+    network 1383579054.509, power 1383578396.579, last notify 1383579054.510
+      connection = 0x7fcb5241e750, target(c) = 0x7fee1b609a60, command = identityservicesd, pid = 317, changes = 0
+      connection = 0x7fcb5241e750, target(c) = 0x7fee1b622e30, command = identityservicesd, pid = 317, changes = 0
+      connection = 0x7fcb5270ef80, target(c) = 0x7fe61ac12620, command = imagent, pid = 315, changes = 0
+
+  digest : <data> 0x5a3f634fc31460bb9c7ddb06b9e93b93b804cd94
+    <SCNetworkReachability 0x7fcb5252db30 [0x7fff74d08eb0]> {name = apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 1, sync queries = 0, refs = 1
+    network 1383579054.509, power 1383578396.579, DNS 1383579054.510 (query 1383579054.514 / reply 0.011), last notify 1383579054.510
+      connection = 0x7fcb52416ff0, target(c) = 0x7fa5e8643130, command = ubd, pid = 299, changes = 0
+
+  digest : <data> 0x6838f0b35b39b7046a6b3da674a4744017d89050
+    <SCNetworkReachability 0x7fcb52716f40 [0x7fff74d08eb0]> {name = p05-streams.icloud.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 1, sync queries = 0, refs = 1
+    network 1383579054.509, power 0.000, DNS 1383579054.510 (query 1383579054.513 / reply 0.012), last notify 1383579054.510
+      connection = 0x7fcb5252d960, target(c) = 0x7fa6bb43a070, command = PhotoStreamAgent, pid = 381, changes = 0
+
+  digest : <data> 0xbb8bf1b63f88589ebe4a90da4797bfdedab07ef6
+    <SCNetworkReachability 0x7fcb5252c010 [0x7fff74d08eb0]> {name = www.apple.com (nodename nor servname provided, or not known), [46], flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 2, sync queries = 0, refs = 2
+    network 1383579054.509, power 1383578396.579, DNS 1383579054.510 (query 1383579054.514 / reply 0.011), last notify 1383579054.510
+      connection = 0x7fcb52617d40, target(c) = 0x7fb23ac30670, command = UserEventAgent, pid = 261, changes = 0
+      connection = 0x7fcb52622510, target(c) = 0x7fa5895767b0, command = SystemUIServer, pid = 284, changes = 0
+
+  digest : <data> 0x27334b8ea4e8203a5e826f53eca8636f7e97b9b9
+    <SCNetworkReachability 0x7fcb5270fbd0 [0x7fff74d08eb0]> {address = 127.0.0.1, dark wake notify, flags = 0x00010002, if_index = 1}
+    valid = Y, async watchers = 3, sync queries = 0, refs = 3
+    network 1383579054.509, power 1383578396.579
+      connection = 0x7fcb5252d960, target(c) = 0x7fa6bb63fae0, command = PhotoStreamAgent, pid = 381, changes = 0
+      connection = 0x7fcb52416ff0, target(c) = 0x7fa5e8429ea0, command = ubd, pid = 299, changes = 0
+      connection = 0x7fcb524192c0, target(c) = 0x7fa390c231e0, command = apsd, pid = 82, changes = 0
+
+  digest : <data> 0x6c1a2c5893cbca09e1b6a6b6aaf3142f3811472d
+    <SCNetworkReachability 0x7fcb524199d0 [0x7fff74d08eb0]> {name = www.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 1, sync queries = 0, refs = 1
+    network 1383579054.509, power 1383578396.579, DNS 1383579054.510 (query 1383579054.513 / reply 0.012), last notify 1383579054.510
+      connection = 0x7fcb5261a480, target(c) = 0x7fb88b403090, command = airportd, pid = 84, changes = 0
+
+  digest : <data> 0x126f6ea6a7e97669f715b73f5bdf07b60111e6a3
+    <SCNetworkReachability 0x7fcb52618a30 [0x7fff74d08eb0]> {address = 127.0.0.1, flags = 0x00010002, if_index = 1}
+    valid = Y, async watchers = 13, sync queries = 0, refs = 13
+    network 1383579054.509, power 1383578396.579
+      connection = 0x7fcb52415ed0, target(c) = 0x7ff242e02b40, command = ocspd, pid = 8628, changes = 0
+      connection = 0x7fcb5241f590, target(c) = 0x7fc200455420, command = softwareupdated, pid = 416, changes = 0
+      connection = 0x7fcb52719eb0, target(c) = 0x82857ae0, command = Google Chrome, pid = 7312, changes = 0
+      connection = 0x7fcb5261caa0, target(c) = 0x7f98f14398e0, command = storeagent, pid = 402, changes = 0
+      connection = 0x7fcb52627b90, target(c) = 0x7fd99842c420, command = com.apple.lookupd, pid = 4358, changes = 0
+      connection = 0x7fcb525339c0, target(c) = 0x7ff6d04640f0, command = DashboardClient, pid = 1172, changes = 0
+      connection = 0x7fcb5261f490, target(c) = 0x7f84c341af50, command = mDNSResponder, pid = 63, changes = 0
+      connection = 0x7fcb5271eec0, target(c) = 0x7f942ae05e60, command = Finder, pid = 285, changes = 0
+      connection = 0x7fcb52616dd0, target(c) = 0x7fdcf8d2c490, command = com.apple.iCloudHelper, pid = 8630, changes = 0
+      connection = 0x7fcb5270d160, target(c) = 0x7fec89d3dad0, command = UserEventAgent, pid = 11, changes = 0
+      connection = 0x7fcb52711c80, target(c) = 0x7fe96040dd20, command = aosnotifyd, pid = 83, changes = 0
+      connection = 0x7fcb52622220, target(c) = 0x7fc1b3e76d80, command = gamed, pid = 399, changes = 0
+      connection = 0x7fcb5252e280, target(c) = 0x7ff443e26d10, command = CalendarAgent, pid = 312, changes = 0
+
+  digest : <data> 0x277b2dcccefb45763dc84a0f945016fda55cf8ce
+    <SCNetworkReachability 0x7fcb52415480 [0x7fff74d08eb0]> {name = 1-courier.sandbox.push.apple.com (nodename nor servname provided, or not known), [46], dark wake notify, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 1, sync queries = 0, refs = 1
+    network 1383579054.509, power 1383578396.579, DNS 1383579054.510 (query 1383579054.514 / reply 0.011), last notify 1383579054.511
+      connection = 0x7fcb524192c0, target(c) = 0x7fa390d33f90, command = apsd, pid = 82, changes = 0
+
+  digest : <data> 0x07a004e82064c444dedf59940b4e676ae0be358a
+    <SCNetworkReachability 0x7fcb52712f30 [0x7fff74d08eb0]> {name = radarsubmissions.apple.com (17.254.2.214), [46]}
+    valid = N, async watchers = 0, sync queries = 0, refs = 2
+    network 1383542889.706, power 0.000, DNS 1383542889.707 (query 1383544795.521 / reply 0.362), last notify 1383544795.884
+
+  digest : <data> 0x88a7c5842fa400f456cdc465adf64d2296f3832c
+    <SCNetworkReachability 0x7fcb5270d9f0 [0x7fff74d08eb0]> {address = 0.0.0.0, flags = 0x00000007, if_index = 0}
+    valid = Y, async watchers = 4, sync queries = 0, refs = 4
+    network 1383579054.509, power 1383578396.579, last notify 1383579054.510
+      connection = 0x7fcb5270d160, target(c) = 0x7fec89d0a2e0, command = UserEventAgent, pid = 11, changes = 0
+      connection = 0x7fcb52419e20, target(c) = 0x7fecb8e06050, command = locationd, pid = 68, changes = 0
+      connection = 0x7fcb52617d40, target(c) = 0x7fb23ae488d0, command = UserEventAgent, pid = 261, changes = 0
+      connection = 0x7fcb52719eb0, target(c) = 0x7866f9f0, command = Google Chrome, pid = 7312, changes = 0
